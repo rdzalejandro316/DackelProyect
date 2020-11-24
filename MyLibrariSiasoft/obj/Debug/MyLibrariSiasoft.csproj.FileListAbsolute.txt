@@ -1,0 +1,12 @@
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\MyLibrariSiasoft.dll
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\MyLibrariSiasoft\obj\Debug\ButtonSiasoft.g.cs
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\MyLibrariSiasoft\obj\Debug\MyLibrariSiasoft_MarkupCompile.cache
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\MyLibrariSiasoft\obj\Debug\MyLibrariSiasoft_MarkupCompile.lref
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\MyLibrariSiasoft\obj\Debug\ButtonSiasoft.baml
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\MyLibrariSiasoft\obj\Debug\MyLibrariSiasoft.g.resources
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\MyLibrariSiasoft\obj\Debug\MyLibrariSiasoft.Properties.Resources.resources
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\MyLibrariSiasoft\obj\Debug\MyLibrariSiasoft.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\MyLibrariSiasoft\obj\Debug\MyLibrariSiasoft.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\MyLibrariSiasoft\obj\Debug\MyLibrariSiasoft.dll
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\MyLibrariSiasoft\obj\Debug\MyLibrariSiasoft.pdb
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\MyLibrariSiasoft.pdb

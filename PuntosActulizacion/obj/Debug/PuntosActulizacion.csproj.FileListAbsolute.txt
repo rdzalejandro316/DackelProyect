@@ -1,0 +1,57 @@
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.CopyComplete
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\PuntosActulizacion.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\PuntosActulizacion.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion_MarkupCompile.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion_MarkupCompile.lref
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.g.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.Properties.Resources.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.CopyComplete
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\PuntosActulizacion.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\PuntosActulizacion.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\PuntosActulizacion.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\PuntosActulizacion.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\PuntosActulizacion\obj\Debug\PuntosActulizacion.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\PuntosActulizacion.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\PuntosActulizacion.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\PuntosActulizacion.dll.CodeAnalysisLog.xml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\PuntosActulizacion.dll.lastcodeanalysissucceeded

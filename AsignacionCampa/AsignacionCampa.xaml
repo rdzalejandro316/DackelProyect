@@ -1,0 +1,160 @@
+﻿<UserControl x:Class="SiasoftAppExt.AsignacionCampa"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SiasoftAppExt"
+             xmlns:SiaSf="http://schemas.syncfusion.com/wpf"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="1500">
+
+
+    <SiaSf:TabControlExt Name="TabControl1" Margin="5,0,10,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  SiaSf:SkinStorage.VisualStyle="Metro"  IsDisableUnloadTabItemExtContent="True">
+        <SiaSf:TabItemExt Name="tabItemExt1"  Header="Asiganacion de Campaña" Width="300" HeaderMargin="50 0 0 0 " FontSize="14" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="0.1*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+
+                    <Grid.Resources>
+                        <Style TargetType="SiaSf:GridHeaderCellControl" x:Key="headerStyle">
+                            <Setter Property="Background" Value="black"/>
+                            <Setter Property="Foreground" Value="WhiteSmoke"/>
+                            <Setter Property="FontSize" Value="11"/>
+                        </Style>
+                    </Grid.Resources>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Column="0" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="5" Visibility="Visible" >
+                        <Grid>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="0.1*"/>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="60"/>
+                                </Grid.RowDefinitions>
+
+                                <Grid Grid.Row="0">
+                                    <TextBlock Foreground="white" Background="#7f8c8d" Width="200" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Bottom" Padding="5">Campañas</TextBlock>
+                                </Grid>
+
+                                <SiaSf:SfDataGrid Grid.Row="1" x:Name="dataGridCam" EnableDataVirtualization="True" AutoGenerateColumns="False" ShowGroupDropArea="True"  AllowFiltering="True"  ItemsSource="{Binding DtTraslados}"  HeaderStyle="{StaticResource headerStyle}"  VerticalAlignment="Top" Margin="5" Height="Auto" SelectionChanged="FirstDetailsViewGrid_SelectionChanged">
+                                    <SiaSf:SfDataGrid.Columns>
+                                        <SiaSf:GridTextColumn HeaderText="Codigo" MappingName="cod_camp" Width="100" IsHidden="True"/>
+                                        <SiaSf:GridTextColumn HeaderText="Nombre Campaña" MappingName="nom_camp" Width="300" />
+                                        <SiaSf:GridTextColumn HeaderText="Estado" MappingName="estado" Width="100"/>
+                                        <SiaSf:GridTextColumn HeaderText="Fecha de Inicio" MappingName="fecha_ini" Width="180" />
+                                        <SiaSf:GridTextColumn HeaderText="Fecha de Finalización" MappingName="fecha_fin" Width="180"/>
+                                    </SiaSf:SfDataGrid.Columns>
+                                </SiaSf:SfDataGrid>
+
+                                <Grid Grid.Row="3" >
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                    </Grid.ColumnDefinitions>
+                                                                        
+                                    <Button x:Name="BtnAsignar" Grid.Column="0" Margin="5" Foreground="Black"  Background="#3498db" Click="BtnOpen_Click" Cursor="Hand" BorderBrush="{x:Null}" >
+                                        <TextBlock TextWrapping="WrapWithOverflow" Foreground="Black" TextAlignment="Center">Asignar por Linea</TextBlock>
+                                    </Button>
+                                    
+                                    <Button x:Name="BtnAsignarCum" Grid.Column="1" Margin="5" Foreground="Black"  Background="#3498db" Click="BtnOpenCumple_Click" Cursor="Hand" BorderBrush="{x:Null}">
+                                        <TextBlock TextWrapping="WrapWithOverflow" Foreground="Black" TextAlignment="Center">Asignar por Cumpleaños</TextBlock>
+                                    </Button>
+
+                                    <Button x:Name="BtnAsignarVend" Grid.Column="2" Margin="5" Foreground="Black"  Background="#3498db" Click="BtnOpenVen_Click" Cursor="Hand" BorderBrush="{x:Null}">
+                                        <TextBlock TextWrapping="WrapWithOverflow" Foreground="Black" TextAlignment="Center">Asignar por Vendedor</TextBlock>
+                                    </Button>
+
+                                    
+                                </Grid>
+
+                            </Grid>
+                        </Grid>
+                    </Border>
+
+                    <Border Grid.Column="1" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="5" Visibility="Visible" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="563*"/>
+                                <ColumnDefinition Width="165*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0.1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="0.1*"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid Grid.Row="0" Grid.ColumnSpan="2">
+                                <TextBlock Foreground="white" Background="#7f8c8d" Width="200" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Bottom" Padding="5">Clientes</TextBlock>
+                            </Grid>
+
+                            <SiaSf:SfDataGrid Grid.Row="1" x:Name="dataGridClientes" EnableDataVirtualization="True" AutoGenerateColumns="False" ShowGroupDropArea="True"  AllowFiltering="True"  ItemsSource="{Binding DtTraslados}"  HeaderStyle="{StaticResource headerStyle}"  VerticalAlignment="Top" Margin="5,5,5,0" Height="Auto" Grid.ColumnSpan="2" SelectionMode="Extended" SelectionChanged="desbloqueBTN">
+                                <SiaSf:SfDataGrid.Columns>
+                                    <SiaSf:GridTextColumn HeaderText="Codigo" MappingName="cod_ter" Width="200" />
+                                    <SiaSf:GridTextColumn HeaderText="Nombre" MappingName="nom_ter" Width="600" />
+                                </SiaSf:SfDataGrid.Columns>
+                            </SiaSf:SfDataGrid>
+
+                            <Grid Grid.Row="2" Margin="5" Grid.ColumnSpan="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    
+                                </Grid.ColumnDefinitions>
+
+                                <Button Grid.Column="1" Background="#c23616" Click="Button_Click_1" Cursor="Hand" Name="BTNCliCam">Quitar de la campaña</Button>
+                                
+                            </Grid>
+
+                            
+
+                        </Grid>
+                    </Border>
+                </Grid>
+
+                <Border Grid.Row="1" Grid.Column="1" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="5" Visibility="Visible">
+                    <Grid Background="black">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="0.7*"/>
+                            <ColumnDefinition Width="1.5*"/>
+                            <ColumnDefinition Width="1.2*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+
+                        <TextBlock Foreground="White" Text="Total de Campañas : " HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+                        <TextBlock  Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Name="TotalGrid" Foreground="#c0392b"></TextBlock>
+
+                        <TextBlock Foreground="White" Text="Campaña : " HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="2"></TextBlock>
+                        <TextBlock  Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Center" Name="CampaGrid" Foreground="#c0392b"></TextBlock>
+
+
+                        <TextBlock Foreground="White" Text="Total Clientes en la campaña : " HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="4"></TextBlock>
+                        <TextBlock Grid.Column="5" HorizontalAlignment="Left" VerticalAlignment="Center" Name="ClientesTotal" Foreground="#c0392b"></TextBlock>
+
+                        <Button Grid.Column="6" Grid.ColumnSpan="2" Margin="2" Width="200" Background="DodgerBlue"  BorderBrush="{x:Null}" Cursor="Hand" Click="Button_Click">abrir maestra de campaña</Button>
+                    </Grid>
+                </Border>
+
+            </Grid>
+        </SiaSf:TabItemExt>
+
+
+
+    </SiaSf:TabControlExt>
+
+</UserControl>

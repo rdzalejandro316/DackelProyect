@@ -1,0 +1,28 @@
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.csprojAssemblyReference.cache
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.g.cs
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID_MarkupCompile.cache
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID_MarkupCompile.lref
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.baml
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.g.resources
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.Properties.Resources.resources
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.csproj.GenerateResource.cache
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.csproj.CopyComplete
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.dll
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.pdb
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\SALINVENYESID.dll
+C:\Users\Oscar Rojas\Desktop\SiasoftLeco\Library\SALINVENYESID.pdb
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.csprojAssemblyReference.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.g.cs
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID_MarkupCompile.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID_MarkupCompile.lref
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.baml
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.g.resources
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.Properties.Resources.resources
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.csproj.GenerateResource.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.csproj.CoreCompileInputs.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.csproj.CopyComplete
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.dll
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\SALINVENYESID\obj\Debug\SALINVENYESID.pdb
+D:\Empresas\leccollezioni\SiasoftLeco\Library\SALINVENYESID.dll
+D:\Empresas\leccollezioni\SiasoftLeco\Library\SALINVENYESID.pdb

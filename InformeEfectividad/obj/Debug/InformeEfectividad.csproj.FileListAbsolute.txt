@@ -1,0 +1,80 @@
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeEfectividad.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeEfectividad.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Campaña.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_CRM.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Cumpleaños.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Email.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_llamada.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_SMS.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_WhatsApp.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\facturado.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Visita_Camp.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Visita_Cumple.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Campaña.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_CRM.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Cumpleaños.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Email.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_llamada.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_SMS.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_WhatsApp.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\facturado.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Visita_Camp.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Visita_Cumple.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\InformeEfectividad.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\InformeEfectividad.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Campaña.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_CRM.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Cumpleaños.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Email.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_llamada.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_SMS.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_WhatsApp.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\facturado.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Visita_Camp.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Visita_Cumple.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Campaña.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_CRM.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Cumpleaños.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_Email.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_llamada.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_SMS.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Detalle_WhatsApp.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\facturado.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Visita_Camp.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\Visita_Cumple.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeEfectividad\obj\Debug\InformeEfectividad.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeEfectividad.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeEfectividad.pdb

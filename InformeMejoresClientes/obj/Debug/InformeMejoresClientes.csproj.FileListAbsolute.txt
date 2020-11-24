@@ -1,0 +1,56 @@
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes_MarkupCompile.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes_MarkupCompile.lref
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.g.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.Properties.Resources.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\InformeMejoresClientes.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\InformeMejoresClientes.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.CopyComplete
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.CopyComplete
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeMejoresClientes.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeMejoresClientes.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\InformeMejoresClientes.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\InformeMejoresClientes.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMejoresClientes\obj\Debug\InformeMejoresClientes.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeMejoresClientes.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeMejoresClientes.pdb

@@ -1,0 +1,95 @@
+﻿<UserControl x:Class="SiasoftAppExt.InformeSegCompra"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:SiaSf="http://schemas.syncfusion.com/wpf"
+             xmlns:local="clr-namespace:SiasoftAppExt"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="1500">
+
+    <SiaSf:TabControlExt Name="TabControl1" Margin="5,0,10,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  SiaSf:SkinStorage.VisualStyle="Metro"  IsDisableUnloadTabItemExtContent="True">
+        <SiaSf:TabItemExt Name="tabItemExt1"  Header="Informe de Seguimiento de Compra" Width="330" HeaderMargin="50 0 0 0 " FontSize="14" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="0.1*"/>
+                </Grid.RowDefinitions>
+
+
+                <Border Grid.Row="0"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5" >
+                    <Grid Background="Black">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Fecha de Inicio : " Margin="20 0 0 0"></TextBlock>
+                        <DatePicker x:Name="fecha_ini" Grid.Column="1" VerticalAlignment="Center" />
+
+                        <TextBlock Grid.Column="2" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Fecha Fin : " Margin="20 0 0 0"></TextBlock>
+                        <DatePicker x:Name="fecha_fin" Grid.Column="3" VerticalAlignment="Center" />
+
+                        <Button Grid.Column="6" Margin="5" Background="DodgerBlue" BorderBrush="{x:Null}" Click="CargarGrid" Cursor="Hand">Consultar</Button>
+                        <Button Grid.Column="7" Margin="5" Background="DodgerBlue" BorderBrush="{x:Null}" Click="ExportaXLS_Click" Cursor="Hand" Name="BTNexpo" IsEnabled="False">Exportar XLS</Button>
+
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="1"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5" >
+                    <Grid>
+                        <Grid.Resources>
+                            <Style TargetType="SiaSf:GridHeaderCellControl" x:Key="headerStyle">
+                                <Setter Property="Background" Value="#2980b9"/>
+                                <Setter Property="Foreground" Value="WhiteSmoke"/>
+                                <Setter Property="FontSize" Value="11"/>
+                            </Style>
+                        </Grid.Resources>
+
+                        <SiaSf:SfDataGrid x:Name="dataGridCxC" EnableDataVirtualization="True" AutoGenerateColumns="False" ShowGroupDropArea="True"  AllowFiltering="True"  ItemsSource="{Binding DtTraslados}"  HeaderStyle="{StaticResource headerStyle}"  VerticalAlignment="Top" Margin="10 5 10 25" Height="Auto" QueryRowHeight="dataGridCxC_QueryRowHeight">
+                            <SiaSf:SfDataGrid.Columns>
+                                <SiaSf:GridTextColumn HeaderText="Fecha de Seguimiento" MappingName="fec_seg" Width="150" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Codigo" MappingName="cod_ter" Width="150" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Nombre Cliente" MappingName="nom_ter" Width="300" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Vendedor Asignado" MappingName="nom_mer" Width="150" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Compra" MappingName="compra" Width="150" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Detalle de la Compra" MappingName="nom_detalle" Width="150" x:Name="_nom_detalle" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Tipo de compra" MappingName="tipo_compra" Width="150" x:Name="_tipo_compra" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Razon Por la que no compro" MappingName="no_compra" Width="150" x:Name="_no_compra" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Observaciones" MappingName="observ" Width="600" x:Name="observ" TextWrapping="Wrap"/>
+                            </SiaSf:SfDataGrid.Columns>
+                        </SiaSf:SfDataGrid>
+
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="2"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5" >
+                    <Grid Background="Black">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Total de Registros:" Foreground="White" Margin="10 0 0 0" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                        <TextBlock Name="TotalResg" Grid.Column="1" Foreground="#c0392b" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10 0 0 0"/>
+                    </Grid>
+
+                </Border>
+            </Grid>
+        </SiaSf:TabItemExt>
+    </SiaSf:TabControlExt>
+    
+
+</UserControl>

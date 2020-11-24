@@ -1,0 +1,84 @@
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes_MarkupCompile.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes_MarkupCompile.lref
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.g.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.Properties.Resources.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\AsignacionClientes.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\AsignacionClientes.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.CopyComplete
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Clientes.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Clientes.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Clientes.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Clientes.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.CopyComplete
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\AsignacionClientes.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\AsignacionClientes.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Reasignar.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Reasignar.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Clientes.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\ClientesNuevos.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\ClientesSinVendedor.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Cliente_Unico.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Reasignar.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Clientes.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\ClientesNuevos.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\ClientesSinVendedor.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Cliente_Unico.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Reasignar.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\AsignacionClientes.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\AsignacionClientes.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Clientes.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\ClientesNuevos.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\ClientesSinVendedor.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Cliente_Unico.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Reasignar.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Clientes.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\ClientesNuevos.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\ClientesSinVendedor.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Cliente_Unico.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\Reasignar.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AsignacionClientes\obj\Debug\AsignacionClientes.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\AsignacionClientes.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\AsignacionClientes.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\AsignacionClientes.dll.CodeAnalysisLog.xml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\AsignacionClientes.dll.lastcodeanalysissucceeded

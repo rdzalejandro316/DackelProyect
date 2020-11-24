@@ -1,0 +1,58 @@
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\ClienteCelebracion.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\ClienteCelebracion.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.CopyComplete
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion_MarkupCompile.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion_MarkupCompile.lref
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.g.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.Properties.Resources.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.CopyComplete
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\ClienteCelebracion.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\ClienteCelebracion.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\ClienteCelebracion.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\ClienteCelebracion.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClienteCelebracion\obj\Debug\ClienteCelebracion.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\ClienteCelebracion.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\ClienteCelebracion.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\ClienteCelebracion.dll.CodeAnalysisLog.xml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\ClienteCelebracion.dll.lastcodeanalysissucceeded

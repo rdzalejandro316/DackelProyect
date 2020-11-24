@@ -1,0 +1,99 @@
+﻿<Window x:Class="Galeria.agregarImagen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:SiaSf="http://schemas.syncfusion.com/wpf"
+        xmlns:local="clr-namespace:Galeria"
+        mc:Ignorable="d"
+        Height="500" Width="1000" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="white" Height="Auto"  BorderBrush="#2980b9" BorderThickness="1,1,1,1" Margin="5">
+            <Grid Grid.Column="0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"/>
+                    <RowDefinition Height="0.5*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Name="TXTcodigo_docum" Visibility="Hidden"/>
+                <TextBlock Name="TXTnombre_docum" Visibility="Hidden"/>
+
+                <Grid Grid.Row="0" Background="#8e44ad">
+                    <TextBlock Text="Seleccione una imagen"  Foreground="White" FontSize="16" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+                </Grid>
+
+                <Grid Grid.Row="1" Margin="10" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" Content="selecciona imagen" Background="DodgerBlue" BorderBrush="{x:Null}" Foreground="White" Height="40" Margin="5" Cursor="Hand" Name="BTNimage" Click="BTNimage_Click"/>
+                    <Button Grid.Column="1" Content="Guardar Imagen" Background="DodgerBlue" BorderBrush="{x:Null}" Foreground="White" Height="40" Margin="5" Cursor="Hand" Name="BTNsubirFoto" Click="BTNsubirFoto_Click" IsEnabled="False"/>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Image Grid.Row="0" Name="image1" Stretch="Fill" Width="200" Height="200"/>
+                </Grid>
+
+            </Grid>
+        </Border>
+
+
+
+        <Border Grid.Column="1" Background="white" Height="Auto"  BorderBrush="#2980b9" BorderThickness="1,1,1,1" Margin="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"/>
+                    <RowDefinition Height="0.5*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0" Background="#8e44ad">
+                    <TextBlock Text="Toma una Foto"  Foreground="White" FontSize="16" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+                </Grid>
+
+                <Grid Grid.Row="1" Margin="10" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" x:Name="bntStart" Background="DodgerBlue" BorderBrush="{x:Null}" Foreground="White" Cursor="Hand" Content="Abrir Camara" Margin="10"  Click="bntStart_Click"/>
+                    <Button Grid.Column="1" x:Name="bntCapture" Background="DodgerBlue" BorderBrush="{x:Null}" Foreground="White" Cursor="Hand"  Content="Tomar Foto" Margin="10" Click="bntCapture_Click" />
+                    <Button Grid.Row="1" Grid.Column="0" x:Name="bntSaveLocal" Background="DodgerBlue" BorderBrush="{x:Null}" Foreground="White" Cursor="Hand" Content="Guardar Localmente" Margin="10" Click="bntSaveLocal_Click" IsEnabled="False"/>
+                    <Button Grid.Row="1" Grid.Column="1" x:Name="bntSaveSQL" Background="DodgerBlue" BorderBrush="{x:Null}" Foreground="White" Cursor="Hand" Content="Guardar en el Documento" Margin="10" Click="bntSaveSQL_Click" IsEnabled="False"/>
+
+                </Grid>
+
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Image x:Name="imgVideo" Stretch="Fill" Width="200" Height="200"/>
+
+                    <Button Grid.Column="1" x:Name="bntResolution" Content="Video Format" Width="120" Click="bntResolution_Click" Margin="112,10,10,201" />
+                    <Button Grid.Column="1" x:Name="bntSetting" Content="Video Source" Width="120" Margin="112,112,10,95" Click="bntSetting_Click" />
+                    <!--<Image Grid.Column="1" x:Name="imgCapture" Stretch="Fill" Width="200" Height="200"/>-->
+                </Grid>
+
+            </Grid>
+        </Border>
+
+    </Grid>
+
+</Window>
+

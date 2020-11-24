@@ -1,0 +1,16 @@
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago.csprojAssemblyReference.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago.g.cs
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago_MarkupCompile.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago_MarkupCompile.lref
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago.baml
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago.g.resources
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago.Properties.Resources.resources
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago.csproj.GenerateResource.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago.csproj.CoreCompileInputs.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago.csproj.CopyComplete
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago.dll
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\AnalisisdeFormasdePago.pdb
+D:\Empresas\leccollezioni\SiasoftLeco\Library\AnalisisdeFormasdePago.dll
+D:\Empresas\leccollezioni\SiasoftLeco\Library\AnalisisdeFormasdePago.pdb
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\Detalle.g.cs
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisdeFormasdePago\obj\Debug\Detalle.baml

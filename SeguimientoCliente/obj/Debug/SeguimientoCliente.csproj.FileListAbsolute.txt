@@ -1,0 +1,146 @@
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.cs
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.cache
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.lref
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.baml
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.resources
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.Properties.Resources.resources
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CopyComplete
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.dll
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.pdb
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\SeguimientoCliente.dll
+C:\Users\PC\Desktop\SiasoftLeco\SiasoftLeco\Library\SeguimientoCliente.pdb
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.cs
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.cache
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.lref
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.baml
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.resources
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.Properties.Resources.resources
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CopyComplete
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.dll
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.pdb
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\SeguimientoCliente.dll
+C:\Users\PC\Desktop\SiasoftLecoEscritorio\SiasoftLeco\Library\SeguimientoCliente.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CopyComplete
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\SeguimientoCliente.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\SeguimientoCliente.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.lref
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.Properties.Resources.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CopyComplete
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\SeguimientoCliente.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\SeguimientoCliente.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Seguimiento.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Seguimiento.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\editarCliente.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Seguimiento.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Seguimiento.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\editarCliente.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\editarCliente.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\editarCliente.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\HistoricoComercial.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\HistoricoComercial.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\HistoricoComercial.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\HistoricoComercial.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCompra.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCompra.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCompra.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCompra.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Buscar.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\editarCliente.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\HistoricoComercial.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Seguimiento.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCompra.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Buscar.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\editarCliente.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\HistoricoComercial.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Seguimiento.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCompra.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\SeguimientoCliente.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\SeguimientoCliente.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Buscar.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\editarCliente.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\HistoricoComercial.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Seguimiento.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCompra.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Buscar.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\editarCliente.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\HistoricoComercial.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Seguimiento.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCompra.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\SeguimientoCliente.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\SeguimientoCliente.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\SeguimientoCliente.dll.CodeAnalysisLog.xml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\SeguimientoCliente.dll.lastcodeanalysissucceeded
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Buscar.g.cs
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\editarCliente.g.cs
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\HistoricoComercial.g.cs
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Seguimiento.g.cs
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.cs
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCompra.g.cs
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.cache
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente_MarkupCompile.lref
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Buscar.baml
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\editarCliente.baml
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\HistoricoComercial.baml
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\Seguimiento.baml
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.baml
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCompra.baml
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.g.resources
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.Properties.Resources.resources
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.csproj.CopyComplete
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.dll
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\SeguimientoCliente\obj\Debug\SeguimientoCliente.pdb
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\SeguimientoCliente.dll
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\SeguimientoCliente.pdb

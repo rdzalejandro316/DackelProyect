@@ -1,0 +1,42 @@
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple_MarkupCompile.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple_MarkupCompile.lref
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.g.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.Properties.Resources.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\InformeCumple.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\InformeCumple.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csproj.CopyComplete
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csproj.CopyComplete
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeCumple.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeCumple.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCumple\obj\Debug\InformeCumple.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeCumple.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeCumple.pdb

@@ -1,0 +1,4 @@
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClassLibrary2\obj\Debug\ColorConverter.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ClassLibrary2\obj\Debug\ColorConverter.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClassLibrary2\obj\Debug\ColorConverter.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ClassLibrary2\obj\Debug\ColorConverter.csproj.CoreCompileInputs.cache

@@ -1,0 +1,41 @@
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeSegCompra.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeSegCompra.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\InformeSegCompra.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\InformeSegCompra.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeSegCompra\obj\Debug\InformeSegCompra.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeSegCompra.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeSegCompra.pdb

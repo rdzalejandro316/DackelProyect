@@ -1,0 +1,14 @@
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify.g.cs
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify_MarkupCompile.cache
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify_MarkupCompile.lref
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify.baml
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify.g.resources
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify.Properties.Resources.resources
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify.csproj.CopyComplete
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify.dll
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify.pdb
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\Shopify.dll
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\Shopify.pdb
+C:\Users\alejandro\Desktop\leccollezioni\SiasoftLeco\Library\project\Shopify\obj\Debug\Shopify.csprojAssemblyReference.cache

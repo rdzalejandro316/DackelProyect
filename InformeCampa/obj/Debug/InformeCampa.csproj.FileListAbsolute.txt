@@ -1,0 +1,42 @@
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa_MarkupCompile.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa_MarkupCompile.lref
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.g.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.Properties.Resources.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\InformeCampa.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\InformeCampa.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csproj.CopyComplete
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csproj.CopyComplete
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeCampa.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeCampa.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCampa\obj\Debug\InformeCampa.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeCampa.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeCampa.pdb

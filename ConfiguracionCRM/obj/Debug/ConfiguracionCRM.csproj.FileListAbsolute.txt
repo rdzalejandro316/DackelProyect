@@ -1,0 +1,42 @@
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\ConfiguracionCRM.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\ConfiguracionCRM.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\ConfiguracionCRM.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\ConfiguracionCRM.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\ConfiguracionCRM\obj\Debug\ConfiguracionCRM.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\ConfiguracionCRM.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\ConfiguracionCRM.pdb

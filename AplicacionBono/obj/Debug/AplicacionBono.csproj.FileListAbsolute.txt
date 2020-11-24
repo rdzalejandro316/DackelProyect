@@ -1,0 +1,16 @@
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono.csprojAssemblyReference.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono.g.cs
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono_MarkupCompile.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono_MarkupCompile.lref
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono.baml
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono.g.resources
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono.Properties.Resources.resources
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono.csproj.GenerateResource.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono.csproj.CoreCompileInputs.cache
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono.dll
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono.pdb
+D:\Empresas\leccollezioni\SiasoftLeco\Library\AplicacionBono.dll
+D:\Empresas\leccollezioni\SiasoftLeco\Library\AplicacionBono.pdb
+D:\Empresas\leccollezioni\SiasoftLeco - pruebas\Library\AplicacionBono.dll
+D:\Empresas\leccollezioni\SiasoftLeco - pruebas\Library\AplicacionBono.pdb
+D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AplicacionBono\obj\Debug\AplicacionBono.csproj.CopyComplete

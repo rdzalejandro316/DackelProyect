@@ -1,0 +1,13 @@
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\PdfView\obj\Debug\PdfView.g.cs
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\PdfView\obj\Debug\PdfView_MarkupCompile.cache
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\PdfView\obj\Debug\PdfView_MarkupCompile.lref
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\PdfView\obj\Debug\PdfView.baml
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\PdfView\obj\Debug\PdfView.g.resources
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\PdfView\obj\Debug\PdfView.Properties.Resources.resources
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\PdfView\obj\Debug\PdfView.csproj.GenerateResource.cache
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\PdfView\obj\Debug\PdfView.csproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\PdfView\obj\Debug\PdfView.dll
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\PdfView\obj\Debug\PdfView.pdb
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\PdfView.dll
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\PdfView.pdb
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\PdfView\obj\Debug\PdfView.csproj.CopyComplete

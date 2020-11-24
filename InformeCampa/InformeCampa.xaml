@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="SiasoftAppExt.InformeCampa"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:SiaSf="http://schemas.syncfusion.com/wpf"
+             xmlns:local="clr-namespace:SiasoftAppExt"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="1500" >
+
+    <SiaSf:TabControlExt Name="TabControl1" Margin="5,0,10,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  SiaSf:SkinStorage.VisualStyle="Metro"  IsDisableUnloadTabItemExtContent="True">
+        <SiaSf:TabItemExt Name="tabItemExt1"  Header="Informe de Campaña" Width="250" HeaderMargin="50 0 0 0 " FontSize="14" >
+            
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="0.1*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5" >
+                    <Grid Background="Black">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1.2*"/>
+                            <ColumnDefinition Width="1.2*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Selecciona una Campaña: "></TextBlock>
+                        <TextBox Grid.Column="1" Foreground="#c0392b" Margin="8" Name="TBX_name_cam" PreviewKeyDown="TextBox_PreviewKeyDown" Tag="CrMae_campa"></TextBox>
+                        <TextBlock Grid.Column="2" Visibility="Hidden" Name="LB_cod_cam"></TextBlock>
+
+
+
+                        <Button Grid.Column="3" Margin="5" Background="DodgerBlue" BorderBrush="{x:Null}" Click="CargarGrid" Cursor="Hand" Name="BTNejec" IsEnabled="False" >Consultar</Button>
+                        <Button Grid.Column="5" Margin="5" Background="DodgerBlue" BorderBrush="{x:Null}" Click="ExportaXLS_Click" Cursor="Hand" Name="BTNexpor" IsEnabled="False">Exportar XLS</Button>
+
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="1"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5" >
+                    <Grid>
+                        <Grid.Resources>
+                            <Style TargetType="SiaSf:GridHeaderCellControl" x:Key="headerStyle">
+                                <Setter Property="Background" Value="#2980b9"/>
+                                <Setter Property="Foreground" Value="WhiteSmoke"/>
+                                <Setter Property="FontSize" Value="11"/>
+                            </Style>
+                        </Grid.Resources>
+
+                        <SiaSf:SfDataGrid x:Name="dataGridCxC" EnableDataVirtualization="True" AutoGenerateColumns="False" ShowGroupDropArea="False"  AllowFiltering="True"  ItemsSource="{Binding DtTraslados}"  HeaderStyle="{StaticResource headerStyle}"  VerticalAlignment="Top" Margin="10 5 10 25" Height="Auto" >
+                            <SiaSf:SfDataGrid.Columns>
+
+                                <SiaSf:GridTextColumn HeaderText="Fecha de seguimiento" MappingName="fec_seg" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Codigo" MappingName="cod_ter" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Nombre Cliente" MappingName="nom_ter" Width="300" />
+                                <SiaSf:GridTextColumn HeaderText="Codigo Vendedor" MappingName="cod_mer" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Nombre Vendedor" MappingName="nom_mer" Width="250" />
+                                <SiaSf:GridTextColumn HeaderText="Codigo Concepto" MappingName="cod_con" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Concepto" MappingName="nom_con" Width="250" />
+                                <SiaSf:GridTextColumn HeaderText="Contacto Con" MappingName="contacto_cli" Width="250" />
+                                <SiaSf:GridTextColumn HeaderText="Observacion" MappingName="observ" Width="300" />
+                            </SiaSf:SfDataGrid.Columns>
+                        </SiaSf:SfDataGrid>
+
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="2"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5" >
+                    <Grid Background="Black">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.8*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Total de Registros : " Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                        <TextBlock Grid.Column="1" Name="TotalReg" Foreground="#c0392b" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5 0 0 0"/>
+                    </Grid>
+                </Border>
+                
+            </Grid>
+        </SiaSf:TabItemExt>
+    </SiaSf:TabControlExt>
+    
+</UserControl>

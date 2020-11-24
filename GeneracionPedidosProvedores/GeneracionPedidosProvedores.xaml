@@ -1,0 +1,129 @@
+﻿<UserControl x:Class="SiasoftAppExt.GeneracionPedidosProvedores"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:SiaSf="http://schemas.syncfusion.com/wpf"
+             xmlns:local="clr-namespace:SiasoftAppExt"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1500" xmlns:SFDataGrid="clr-namespace:Syncfusion.Windows.Controls.Grid;assembly=Syncfusion.Grid.Wpf" >
+
+    <UserControl.Resources>
+        <Style  x:Key="TextBoxInput">
+            <Setter Property="Control.Margin" Value="0 0 5 0"/>
+            <Setter Property="Control.VerticalAlignment" Value="Center"/>
+            <Setter Property="Control.HorizontalAlignment" Value="Stretch"/>
+        </Style>
+        <Style x:Key="txtF8">
+            <Setter Property="Control.Foreground" Value="#f39c12"/>
+            <Setter Property="Control.VerticalAlignment" Value="Center"/>
+            <Setter Property="Control.HorizontalAlignment" Value="Left"/>
+            <Setter Property="Control.FontSize" Value="11"/>
+        </Style>
+        <Style TargetType="SiaSf:GridHeaderCellControl" x:Key="headerStyle">
+            <Setter Property="Background" Value="#373737"/>
+            <Setter Property="Foreground" Value="WhiteSmoke"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        
+    </UserControl.Resources>
+
+    <SiaSf:TabControlExt Name="TabControl1" Margin="5,0,10,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  SiaSf:SkinStorage.VisualStyle="Metro" IsDisableUnloadTabItemExtContent="True" TabItemSelectedBackground="#373737" CloseButtonType="Hide">
+        <SiaSf:TabItemExt Name="tabItemExt1"  Header="Generacion de Pedidos" Width="180" HeaderMargin="15 0 0 0" FontSize="14">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150" />
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+
+                <Border BorderBrush="LightGray" BorderThickness="1" Margin="5">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0.5*" />
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="0.8*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 5 0" Text="Fecha de Consulta :"/>
+                        <DatePicker x:Name="FechaConsul" Grid.Row="1" Grid.Column="1"  Style="{StaticResource TextBoxInput}" />
+
+                        <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 5 0" Text="Meses Calculados :"/>
+                        <TextBox x:Name="TextBox_Meses" Grid.Row="2" Grid.Column="1" Style="{StaticResource TextBoxInput}"></TextBox>
+
+                        <TextBlock Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 5 0" Text="Alcance Minimo: "/>
+                        <TextBox x:Name="TextBox_Minimo" Grid.Row="3" Grid.Column="1"  Style="{StaticResource TextBoxInput}"/>
+
+                        <TextBlock Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 5 0" Text="Alcance Maximo: "/>
+                        <TextBox x:Name="TextBox_Maximo" Grid.Row="4" Grid.Column="1"  Style="{StaticResource TextBoxInput}"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 5 0" Text="Bodega :"/>
+                        <TextBox x:Name="TextCod_bod" Grid.Row="1" Grid.Column="3"  Style="{StaticResource TextBoxInput}" PreviewKeyDown="TextBox_PreviewKeyDown" Tag="inmae_bod" ToolTip="presiona F8 para seleccionar la bodega"/>
+                        <TextBlock x:Name="TextNombreBod" Grid.Row="1" Grid.Column="4" Style="{StaticResource txtF8}"/>
+
+                        <TextBlock Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 5 0" Text="Proveedor :"/>
+                        <TextBox x:Name="TextCod_Pro" Grid.Row="2" Grid.Column="3" Style="{StaticResource TextBoxInput}" PreviewKeyDown="TextBox_PreviewKeyDown" Tag="inmae_prv" ToolTip="presiona F8 para seleccionar el provedor"/>
+                        <TextBlock x:Name="TextNombrePro" Grid.Row="2" Grid.Column="4" Style="{StaticResource txtF8}"/>
+
+                        <TextBlock Grid.Row="3" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 5 0" Text="Linea :"/>
+                        <TextBox x:Name="TextCod_Lin" Grid.Row="3" Grid.Column="3" Style="{StaticResource TextBoxInput}" PreviewKeyDown="TextBox_PreviewKeyDown" Tag="inmae_tip" ToolTip="presiona F8 para seleccionar la linea"/>
+                        <TextBlock x:Name="TextNombreLin" Grid.Row="3" Grid.Column="4" Style="{StaticResource txtF8}"/>
+
+                        <SiaSf:SfDataGrid Name="dataGridGrup" Grid.Column="5" Grid.Row="1" Grid.RowSpan="5" HeaderStyle="{StaticResource headerStyle}" />
+
+                        <Button Grid.Column="8" Grid.Row="4" BorderBrush="Black" Background="#f39c12" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="1" Cursor="Hand" Content="Consultar" Click="Consultar"/>
+                        <Button Grid.Column="8" Grid.Row="3" BorderBrush="Black" Background="#f39c12" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="1" Cursor="Hand" Content="XlS" Click="Export_excel"/>
+
+                    </Grid>
+                </Border>
+
+                <Border BorderBrush="LightGray" BorderThickness="1" Margin="5" Grid.Row="1">
+                    <Grid>
+                        <SiaSf:SfDataGrid  x:Name="dataGridCxC" AllowResizingColumns="True" EnableDataVirtualization = "True"  AutoGenerateColumns="False" ShowGroupDropArea="True" FontSize="11" AllowFiltering="True"   ItemsSource="{Binding DtTraslados}"  HeaderStyle="{StaticResource headerStyle}" Background="LightGray" >
+                            <SiaSf:SfDataGrid.Columns>
+                                <SiaSf:GridTextColumn  HeaderText="codigo tipo" MappingName="cod_tip" Width="100"/>
+                                <SiaSf:GridTextColumn HeaderText="Codigo"  MappingName="cod_ref" Width="120"/>
+                                <SiaSf:GridTextColumn HeaderText="Nombre Referencia"  MappingName="nom_ref" Width="350"/>
+                                <SiaSf:GridTextColumn HeaderText="Mes 1"  MappingName="mes1" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Mes 2"  MappingName="mes2" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Mes 3"  MappingName="mes3" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Mes 4"  MappingName="mes4" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Mes 5"  MappingName="mes5" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Mes 6"  MappingName="mes6" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Mes 7"  MappingName="mes7" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Mes 8"  MappingName="mes8" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Mes 9"  MappingName="mes9" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Mes 10"  MappingName="mes10" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Mes 11"  MappingName="mes11" Width="100" />
+                                <SiaSf:GridTextColumn HeaderText="Mes 12"  MappingName="mes12" Width="100" />
+                            </SiaSf:SfDataGrid.Columns>
+                        </SiaSf:SfDataGrid>
+
+
+                    </Grid>
+                </Border>
+
+                <Border BorderBrush="LightGray" BorderThickness="1" Margin="5" Grid.Row="2">
+
+                </Border>
+
+            </Grid>
+
+        </SiaSf:TabItemExt>
+    </SiaSf:TabControlExt>
+    
+    
+</UserControl>

@@ -1,0 +1,230 @@
+﻿<Window x:Class="SeguimientoCliente.SeguimientoCompra"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SeguimientoCliente"
+        xmlns:SiaSf="http://schemas.syncfusion.com/wpf"
+        mc:Ignorable="d"
+        Title="Seguimiento Compra" Height="500" Width="1000" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+
+    <SiaSf:TabControlExt Name="TabControl1" Margin="5,0,10,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  SiaSf:SkinStorage.VisualStyle="Metro"  IsDisableUnloadTabItemExtContent="True">
+        <SiaSf:TabItemExt Name="tabItemExt1"  Header="Seguimiento de Compra" Width="300" HeaderMargin="70 0 0 0 " FontSize="14" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.3*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="5" Grid.ColumnSpan="2" >
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0.8*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="0.5*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.8*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="1.2*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.Resources>
+                            <Style TargetType="TextBlock" x:Key="label">
+                                <Setter Property="Width" Value="130"/>
+                                <Setter Property="TextAlignment" Value="Right"/>
+                                <Setter Property="TextWrapping" Value="WrapWithOverflow"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="HorizontalAlignment" Value="Right"/>
+                                <Setter Property="FontSize" Value="12"/>
+                                <Setter Property="Foreground" Value="Black"/>
+                            </Style>
+                            <Style TargetType="TextBlock" x:Key="TextBx">
+                                <Setter Property="Foreground" Value="#c0392b"/>
+                                <Setter Property="HorizontalAlignment" Value="Left"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="Height" Value="Auto"/>
+                            </Style>
+                        </Grid.Resources>
+
+                        <Grid Grid.Row="0" Grid.ColumnSpan="2">
+                            <TextBlock Text="Datos de Cliente" Background="Gray" Foreground="White" Height="Auto" VerticalAlignment="Top" Margin="10,0,0,0" Grid.ColumnSpan="2" Width="150" Grid.Column="0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                        </Grid>
+
+                        <TextBlock Text="Codigo : " Grid.Row="1" Grid.Column="0" Style="{StaticResource label}" />
+                        <TextBlock x:Name="TextBx_ComCli" Grid.Row="1" Grid.Column="1" Style="{StaticResource TextBx}"  />
+
+                        <TextBlock Text="Nombre Completo : " Grid.Row="1" Grid.Column="2" Style="{StaticResource label}" />
+                        <TextBlock x:Name="TextBx_NomCli" Grid.Row="1" Grid.Column="3" Style="{StaticResource TextBx}" />
+
+                        <TextBlock Text="Nombre del Vendedor : " Grid.Row="1" Grid.Column="4" Style="{StaticResource label}" />
+                        <TextBlock x:Name="TextBx_Vendedor" Grid.Row="1" Grid.Column="5" Style="{StaticResource TextBx}" />
+                        <TextBlock Name="LB_vendedor" Visibility="Hidden"/>
+
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="1" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="5" Grid.ColumnSpan="2" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0.2*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid HorizontalAlignment="Left" >
+                                <TextBlock Text="Seguimiento" Background="Gray" Foreground="White" Height="Auto" VerticalAlignment="Top" Margin="10,0,0,0" Grid.ColumnSpan="2" Width="150" Grid.Column="0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                            </Grid>
+
+                            <TextBlock Grid.Column="0" Text="Compro : " HorizontalAlignment="Right" VerticalAlignment="Bottom"></TextBlock>
+                            <ComboBox Name="CB_compro"  Grid.Column="1"  SelectionChanged="ComboBox_SelectionChanged" Width="150" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                                <ComboBoxItem >SI</ComboBoxItem>
+                                <ComboBoxItem >NO</ComboBoxItem>
+                            </ComboBox>
+                        </Grid>
+
+                        <Grid Grid.Row="1" Margin="0 10 0 10" HorizontalAlignment="Center" Width="800">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock Name="TX_1" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Detalle : " Visibility="Hidden"/>
+                            <TextBox Name="TB_1" Grid.Column="1" Margin="5" Visibility="Hidden" PreviewKeyDown="TextBox_PreviewKeyDown" Tag="CrMae_detalle"></TextBox>
+                            <TextBlock Name="LB_1" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Detalle : " Visibility="Hidden"/>
+
+                            <TextBlock Name="TX_2" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Tipo de Compra : " Visibility="Hidden"/>
+                            <ComboBox  Name="CB_tipo_compra" Grid.Row="1" Grid.Column="1" Margin="5" SelectionChanged="ComboBox_SelectionChanged" VerticalAlignment="Center" Visibility="Hidden">
+                                <ComboBoxItem >Personal</ComboBoxItem>
+                                <ComboBoxItem >Familiar</ComboBoxItem>
+                                <ComboBoxItem >Otro</ComboBoxItem>
+                            </ComboBox>
+
+                            <TextBlock Name="TX_3" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Razon por que no Compro : " TextWrapping="Wrap" Width="100" Visibility="Hidden"/>
+                            <ComboBox  Name="CB_no_compra" Grid.Row="1" Grid.Column="1" Margin="5" SelectionChanged="ComboBox_SelectionChanged" VerticalAlignment="Center" Visibility="Hidden">
+                                <ComboBoxItem >Color</ComboBoxItem>
+                                <ComboBoxItem >Talla</ComboBoxItem>
+                                <ComboBoxItem >Precio</ComboBoxItem>
+                                <ComboBoxItem >Tiempo</ComboBoxItem>
+                                <ComboBoxItem >Mal Servicio</ComboBoxItem>
+                            </ComboBox>
+
+
+                            <TextBlock Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Observacion : " />
+                            <TextBox x:Name="TextBx_obse" Grid.Row="2" Grid.Column="1" Grid.RowSpan="5" Grid.ColumnSpan="5"  Height="120" Width="400" VerticalAlignment="Top" HorizontalAlignment="Left" TextWrapping="Wrap" AcceptsReturn="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Margin="5 10 0 0" Foreground="Black" CharacterCasing="Upper" IsEnabled="False"/>
+
+                            <Button Name="BTNregistrar"  Grid.Column="4" Grid.Row="2" Margin="5" Content="Registrar" Background="DodgerBlue" Click="Click_Registrar" IsEnabled="False" Cursor="Hand"/>
+                            <Button Name="BTNcancelar" Grid.Column="4" Grid.Row="3" Margin="5" Content="Cancelar" Background="DodgerBlue" Click="Click_Cancelar" IsEnabled="False" Cursor="Hand"/>
+
+                        </Grid>
+
+                    </Grid>
+                </Border>
+
+            </Grid>
+        </SiaSf:TabItemExt>
+
+        <SiaSf:TabItemExt Name="tabItemExt2"  Header="Consulta de Seguimiento" Width="300" HeaderMargin="70 0 0 0 " FontSize="14" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+
+                <Grid Background="black" Name="PanelCons">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,10,0" Foreground="White" >Fecha Inicial :</TextBlock>
+                    <DatePicker x:Name="fecha_ini" Grid.Column="1" VerticalAlignment="Center" BorderBrush="{x:Null}" />
+                    <TextBlock Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,10,0" Foreground="White">Fecha Final :</TextBlock>
+                    <DatePicker x:Name="fecha_fin" Grid.Column="3" VerticalAlignment="Center" BorderBrush="{x:Null}"/>
+
+                    <TextBlock Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,10,0" Foreground="White" TextWrapping="WrapWithOverflow">Personas que compraron :</TextBlock>
+                    <ComboBox Name="CB_compro_bus"  Grid.Column="5"  SelectionChanged="CB_compro_bus_SelectionChanged" Width="50" HorizontalAlignment="Left" VerticalAlignment="Center">
+                        <ComboBoxItem IsEnabled="True">SI</ComboBoxItem>
+                        <ComboBoxItem >NO</ComboBoxItem>
+                    </ComboBox>
+
+
+                    <Button Name="BTNeje"  Grid.Column="6" Margin="5" Background="#3498db" Foreground="black" BorderBrush="{x:Null}" Cursor="Hand" Click="cargarGrid" IsEnabled="False">Consultar</Button>
+                    <Button Name="BTNxls" Grid.Column="7" Margin="5" Background="#3498db" Foreground="black" BorderBrush="{x:Null}" Cursor="Hand" Click="ExportaXLS_Click" IsEnabled="False">exportar excel</Button>
+
+                </Grid>
+
+                <Border Grid.Row="1" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="5" Grid.ColumnSpan="2">
+                    <Grid>
+                        <Grid.Resources>
+                            <Style TargetType="SiaSf:GridHeaderCellControl" x:Key="headerStyle">
+                                <Setter Property="Background" Value="#3498db"/>
+                                <Setter Property="Background" Value="#3498db"/>
+                                <Setter Property="Foreground" Value="WhiteSmoke"/>
+                                <Setter Property="FontSize" Value="11"/>
+                            </Style>
+                        </Grid.Resources>
+
+                        <SiaSf:SfBusyIndicator Name="sfBusyIndicator" Margin="5" VerticalAlignment="Center" FontSize="12" AnimationSpeed="100" AnimationType="Gear" Header="Cargando Datos - SiasoftApp" Height="200" IsBusy="False" />
+                        
+                        <SiaSf:SfDataGrid Grid.Row="1" x:Name="dataGridCxC" AllowResizingColumns="True"  EnableDataVirtualization="True" AutoGenerateColumns="False" ShowGroupDropArea="True"  AllowFiltering="True"  ItemsSource="{Binding DtTraslados}"  HeaderStyle="{StaticResource headerStyle}" QueryRowHeight="dataGridCxC_QueryRowHeight" >
+                            <SiaSf:SfDataGrid.Columns>
+                                <SiaSf:GridTextColumn HeaderText="Fecha de registro" MappingName="fec_seg" Width="150" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Codigo Cliente" MappingName="cod_ter" Width="150" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Nombre del Cliente" MappingName="nom_ter" Width="150" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Nomber del Vendedor" MappingName="nom_mer" Width="150" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Compra" MappingName="compra" Width="150" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Detalle de la Compra" MappingName="nom_detalle" Width="150" x:Name="_nom_detalle" IsHidden="True" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Tipo de compra" MappingName="tipo_compra" Width="150" x:Name="_tipo_compra" IsHidden="True" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Razon Por la que no compro" MappingName="no_compra" Width="150" x:Name="_no_compra" IsHidden="True" TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Observaciones" MappingName="observ" Width="400" x:Name="_observ" TextWrapping="Wrap"/>
+                                
+                                
+                            </SiaSf:SfDataGrid.Columns>
+                        </SiaSf:SfDataGrid>
+
+                    </Grid>
+
+                </Border>
+                
+                <Grid Grid.Row="2" Background="Black">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Total : " VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="10 0 0 0"/>
+                    <TextBlock Name="TotalReg" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" />
+                </Grid>
+
+            </Grid>
+        </SiaSf:TabItemExt>
+
+    </SiaSf:TabControlExt>
+
+</Window>
+    

@@ -1,0 +1,308 @@
+﻿<UserControl x:Class="SiasoftAppExt.BP_Nuevo_Usuario"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:SiaSf="http://schemas.syncfusion.com/wpf"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:SiasoftAppExt"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="1200">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Indigo.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+
+    <Grid Background="White">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Column="1"  Grid.Row="1" Name="menu" Background="#FF2A2B30" Width="200" HorizontalAlignment="Left" Margin="-200,0,0,0" Panel.ZIndex="1">
+            <Grid Grid.Row="1" Background="{x:Null}"  VerticalAlignment="Top" Margin="0,0,0,0" >
+                <Grid.Resources>
+                    <Style x:Key="botones-menu">
+                        <Setter Property="Control.Background" Value="{x:Null}"/>
+                        <Setter Property="Control.BorderBrush" Value="{x:Null}"/>
+                        <Setter Property="Control.Foreground" Value="White"/>
+                        <Setter Property="Control.Width" Value="200"/>
+                        <Setter Property="Control.Height" Value="60"/>
+                        <Setter Property="Control.VerticalAlignment" Value="Center"/>
+                        <Setter Property="Control.HorizontalAlignment" Value="Left"/>
+                        <Setter Property="Control.Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}" BorderBrush="{x:Null}" BorderThickness="1">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="Control.IsMouseOver" Value="True">
+                                <Setter Property="Control.Background" Value="#3498db"/>
+                                <Setter Property="Control.Cursor" Value="Hand"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                  
+                </Grid.Resources>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" BorderBrush="Silver" BorderThickness="0,0,0,1" Margin="5 0 5 0">
+                    <Button Grid.Row="0"  Click="Open_Nuevo"  Style="{StaticResource botones-menu}" >
+                        <Grid Width="140">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.3*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                            </Grid.RowDefinitions>
+                            <Image Grid.Column="0" x:Name="ImageNuevoUsu" Source="imagenes/arrow.png" Width="20" Height="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            <TextBlock Grid.Column="1" Text="Nuevo usuario" FontSize="15" HorizontalAlignment="Left"/>
+                        </Grid>
+                    </Button>
+                </Border>
+
+                <Border Grid.Row="1" BorderBrush="Silver" BorderThickness="0,0,0,1" Margin="5 0 5 0">
+                    <Button Grid.Row="1"  Click="Open_NuevaBici" Style="{StaticResource botones-menu}">
+                    <Grid Width="140">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.3*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                        </Grid.RowDefinitions>
+                            <Image Grid.Column="0" x:Name="ImageNuevoBici" Source="imagenes/arrow.png" Width="20" Height="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            <TextBlock Grid.Column="1" Text="Nueva bicicleta" FontSize="15" HorizontalAlignment="Left"/>
+                    </Grid>
+                </Button>
+               </Border>
+
+                <Border Grid.Row="2" BorderBrush="Silver" BorderThickness="0,0,0,1" Margin="5 0 5 0">
+                    <Button Grid.Row="2" Click="Open_Ingreso" Style="{StaticResource botones-menu}">
+                        <Grid Width="140">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.3*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                            </Grid.RowDefinitions>
+                            <Image Grid.Column="0" x:Name="ImageIngreso" Source="imagenes/arrow.png" Width="20" Height="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            <TextBlock Grid.Column="1" Text="Ingreso" FontSize="15"/>
+                        </Grid>
+                    </Button>
+                </Border>
+
+                <Border Grid.Row="3" BorderBrush="Silver" BorderThickness="0,0,0,1" Margin="5 0 5 0">
+                    <Button Grid.Row="3"  Click="Open_Salida" Style="{StaticResource botones-menu}">
+                        <Grid Width="140">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.3*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                            </Grid.RowDefinitions>
+                            <Image Grid.Column="0" x:Name="ImageSalida" Source="imagenes/arrow.png"  Width="20" Height="20" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="Fill"/>
+                            <TextBlock Grid.Column="1" Text="Salida" FontSize="15"/>
+                        </Grid>
+                    </Button>
+                </Border>
+
+
+                <Border Grid.Row="4" BorderBrush="Silver" BorderThickness="0,0,0,1" Margin="5 0 5 0">
+                    <Button Grid.Row="4" Click="Open_Historial" Style="{StaticResource botones-menu}">
+                    <Grid Width="140">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.3*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Column="0" x:Name="ImageHistorial" Source="imagenes/arrow.png" Width="20" Height="20" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="Fill"/>
+                        <TextBlock Grid.Column="1" Text="Historial" FontSize="15"/>
+                    </Grid>
+                </Button>
+                </Border>
+                
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Column="1"  Grid.Row="0" Name="menu_panel" Background="black" Panel.ZIndex="2">
+            <!--<Grid.Resources>
+                <Style x:Key="Menu">
+                    <Setter Property="Control.Width" Value="30"/>
+                    <Setter Property="Control.Height" Value="20"/>
+                    <Setter Property="Control.Margin" Value="20,0,0,0"/>
+                    <Setter Property="Control.VerticalAlignment" Value="Center"/>
+                    <Setter Property="Control.HorizontalAlignment" Value="Left"/>
+                    <Setter Property="Control.BorderBrush" Value="{x:Null}"/>
+                    <Setter Property="Control.Background" Value="{x:Null}"/>
+                    <Setter Property="Control.Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="{x:Null}" BorderThickness="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="Control.IsMouseOver" Value="True">
+                            <Setter Property="Control.Background" Value="{x:Null}"/>
+                            <Setter Property="Control.Cursor" Value="Hand"/>
+                            <Setter Property="Control.Height" Value="22"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Resources>
+            
+            <Button Grid.Row="0" Name="menu_btnVis"  Click="Button_Vis" Visibility="Visible"  Style="{StaticResource Menu}">
+                <Image Source="imagenes/menu.png" Stretch="Fill" />
+            </Button>
+
+            <Button Grid.Row="0" Name="menu_btnHid" Click="Button_Hid" Visibility="Hidden" Style="{StaticResource Menu}">
+                <Image Source="imagenes/menu.png" Stretch="Fill"></Image>
+            </Button>-->
+
+            <materialDesign:ColorZone  Mode="Inverted"  Padding="5">
+                <DockPanel>
+                    <materialDesign:PopupBox DockPanel.Dock="Right"  PlacementMode="BottomAndAlignRightEdges">
+                        <ListBox>
+                            <ListBoxItem>
+                                Usuario: 
+                            </ListBoxItem>
+                        </ListBox>
+                    </materialDesign:PopupBox>
+                    <StackPanel Orientation="Horizontal">
+                        <ToggleButton  Style="{DynamicResource MaterialDesignHamburgerToggleButton}" Click="Button_Vis" Tag="1" Name="MenuBTN" Cursor="Hand" Margin="15 0 0 0"/>
+                        <TextBlock  VerticalAlignment="Center"  Margin="10 0 0 0">
+                            Menu Delivery
+                        </TextBlock>
+                    </StackPanel>
+                </DockPanel>
+            </materialDesign:ColorZone>
+        </Grid>
+
+        <Grid Name="conte" Grid.Row="1" >
+            <Border Background="white" BorderBrush="Black" BorderThickness="1,1,1,1" Margin="5" >
+                <Grid>
+                    <materialDesign:Card   Width="800" VerticalAlignment="Center" HorizontalAlignment="Center" Background="#FFE6E6E6" >
+                        <Grid Width="800" Name="contenedor" Height="400" Background="#FFE6E6E6" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Grid Width="600" Height="400">
+                                <Grid.Resources>
+                                    <Style x:Key="text-grid">
+                                        <Setter Property="Control.FontSize" Value="26"/>
+                                        <Setter Property="Control.VerticalAlignment" Value="Bottom"/>
+                                        <Setter Property="Control.Foreground" Value="#FF2196F3"/>
+                                        <Setter Property="Control.HorizontalAlignment" Value="Left"/>
+                                        <Setter Property="FrameworkElement.Cursor" Value="Hand"/>
+                                    </Style>
+                                    <Style x:Key="text-box-grid">
+                                        <Setter Property="Control.BorderBrush" Value="{x:Null}"/>
+                                        <Setter Property="Control.Width" Value="120"/>
+                                        <Setter Property="Control.Height" Value="25"/>
+                                        <Setter Property="Control.Background" Value="#292b2d"/>
+                                        <Setter Property="Control.Foreground" Value="White"/>
+                                        <Setter Property="Control.HorizontalAlignment" Value="Left"/>
+                                        <Setter Property="Control.VerticalAlignment" Value="Bottom"/>
+                                        <Setter Property="FrameworkElement.Cursor" Value="Hand"/>
+                                    </Style>
+                                    <Style x:Key="text-list-grid">
+                                        <Setter Property="Control.Height" Value="25"/>
+                                        <Setter Property="Control.Width" Value="120"/>
+                                        <Setter Property="Control.HorizontalAlignment" Value="Left"/>
+                                        <Setter Property="Control.VerticalAlignment" Value="Bottom"/>
+                                        <Setter Property="FrameworkElement.Cursor" Value="Hand"/>
+                                    </Style>
+                                    <Style x:Key="botones-menu">
+                                        <Setter Property="Control.Background" Value="#6bbe98"/>
+                                        <Setter Property="Control.Height" Value="50"/>
+                                        <Setter Property="Control.Width" Value="300"/>
+                                        <Setter Property="Control.Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="{x:Type Button}">
+                                                    <Border Background="{TemplateBinding Background}" BorderBrush="{x:Null}" BorderThickness="1">
+                                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                    </Border>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Style.Triggers>
+                                            <Trigger Property="Control.IsMouseOver" Value="True">
+                                                <Setter Property="Control.Background" Value="#FF3A8B66"/>
+                                                <Setter Property="Control.Cursor" Value="Hand"/>
+                                                <Setter Property="Control.Width" Value="300"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="0.5*"/>
+                                    <RowDefinition Height="0.8*" />
+                                    <RowDefinition Height="0.8*" />
+                                    <RowDefinition Height="0.5*" />
+                                    <RowDefinition Height="0.5*" />
+                                    <RowDefinition Height="0.8*" />
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Name="titleFormUsu" Text="DATOS DEL USUARIO" Style="{StaticResource text-grid}" FontWeight="Bold" />
+                                <TextBox Name ="Nombre" Grid.Column="0" Grid.Row="1" Margin="0,10" materialDesign:HintAssist.Hint="Nombre" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="120" HorizontalAlignment="Left" FontSize="14" />
+                                <TextBox Name="Apellido" Grid.Column="1" Grid.Row="1" Margin="0,10" materialDesign:HintAssist.Hint="Apellido" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="120" HorizontalAlignment="Left" FontSize="14" />
+                                <TextBox Name="Cedula" Grid.Column="2" Grid.Row="1" Margin="0,10" materialDesign:HintAssist.Hint="Cedula" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="120" HorizontalAlignment="Left" FontSize="14" />
+                                <TextBox Name="Direccion" Grid.Column="3" Grid.Row="1"   Margin="0,10" materialDesign:HintAssist.Hint="Direccion" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="120" HorizontalAlignment="Left" FontSize="14" />
+
+                                <ComboBox  Name="Sexo" Grid.Column="0" Grid.Row="2" Margin="0 25 0 0" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Width="120" HorizontalAlignment="Left" materialDesign:HintAssist.Hint="Sexo">
+                                    <ComboBoxItem IsSelected="True">Masculino</ComboBoxItem>
+                                    <ComboBoxItem >Femenino</ComboBoxItem>
+                                </ComboBox>
+                             
+                                <TextBox Name="Telefono" Grid.Column="1" Grid.Row="2" Margin="0,10" materialDesign:HintAssist.Hint="Telefono" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="120" HorizontalAlignment="Left" FontSize="14" />
+                                <TextBox Name="Correo" Grid.Column="2" Grid.Row="2"   Margin="0,10" materialDesign:HintAssist.Hint="Correo" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="120" HorizontalAlignment="Left" FontSize="14" />
+                                <TextBox Name="Oficina" Grid.Column="3" Grid.Row="2"     Margin="0,10" materialDesign:HintAssist.Hint="Oficina" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="120" HorizontalAlignment="Left" FontSize="14" />
+
+                                <Button Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="4"   Style="{DynamicResource MaterialDesignRaisedButton}" materialDesign:ShadowAssist.ShadowDepth="Depth3" HorizontalAlignment="Left" Width="300" Height="Auto">
+                                    <TextBlock FontSize="16">registrar usuario</TextBlock>
+                                </Button>
+
+                            </Grid>
+
+                        </Grid>
+                    </materialDesign:Card>
+
+                </Grid>
+            </Border>
+        </Grid>
+        
+        
+    </Grid>
+       
+</UserControl>
+

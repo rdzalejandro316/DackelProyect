@@ -1,0 +1,122 @@
+﻿<UserControl x:Class="SiasoftAppExt.PuntosActulizacion"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:skinManager="clr-namespace:Syncfusion.SfSkinManager;assembly=Syncfusion.SfSkinManager.WPF"
+             xmlns:SiaSf="http://schemas.syncfusion.com/wpf"
+             xmlns:local="clr-namespace:SiasoftAppExt"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="1500"  xmlns:SFDataGrid="clr-namespace:Syncfusion.Windows.Controls.Grid;assembly=Syncfusion.Grid.Wpf">
+
+    <SiaSf:TabControlExt Name="TabControl1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  SiaSf:SkinStorage.VisualStyle="Metro"  IsDisableUnloadTabItemExtContent="True" Margin="5,0,10,5">
+        <SiaSf:TabItemExt Name="tabItemExt1"  Header="Puntos" Width="150" HeaderMargin="50 0 0 0 " FontSize="14">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="0.1*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1" >
+                    <Grid Background="black" Grid.Row="1" Margin="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.6*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.6*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.2*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.2*"/>
+                            <ColumnDefinition Width="0.8*"/>
+                            <ColumnDefinition Width="0.8*"/>
+                            <ColumnDefinition Width="0.8*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0" Foreground="White">Fecha Inicial</TextBlock>
+                        <DatePicker x:Name="fecha_ini" Grid.Column="1" VerticalAlignment="Center" />
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0" Foreground="White">Fecha Final</TextBlock>
+                        <DatePicker x:Name="fecha_fin" Grid.Column="3" VerticalAlignment="Center" />
+
+                        <TextBlock Grid.Column="5" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Vendedor : "></TextBlock>
+                        <TextBox x:Name="TXBven" Grid.Column="6" PreviewKeyDown="TextBox_PreviewKeyDown" Tag="inmae_mer" Margin="5" Foreground="#c0392b" VerticalAlignment="Center"/>
+                        <TextBlock Grid.Column="6" Margin="5" Name="LBven" Visibility="Hidden"></TextBlock>
+
+                        <Button Name="BTNejecutar" Grid.Column="8" Margin="5" Background="#FF4294DE" BorderBrush="{x:Null}" Cursor="Hand" Click="cargarGrid" Tag="BTven">Ejecutar</Button>
+                        <Button Name="BTNTodo" Grid.Column="9" Margin="5" Background="#FF4294DE" BorderBrush="{x:Null}" Cursor="Hand" Click="cargarGrid" Tag="BTtodo">Consultar Todos</Button>
+                        <Button Name="BTNexportar" Grid.Column="10" Margin="5" Background="#FF4294DE" BorderBrush="{x:Null}" Cursor="Hand" Click="ExportaXLS_Click">Exportar Excel</Button>
+
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="1" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="10">
+                    <Grid Margin="10">
+                        <Grid.Resources>
+                            <Style TargetType="SiaSf:GridHeaderCellControl" x:Key="headerStyle">
+                                <Setter Property="Background" Value="#2980b9"/>
+                                <Setter Property="Foreground" Value="WhiteSmoke"/>
+                                <Setter Property="FontSize" Value="11"/>
+                            </Style>
+                        </Grid.Resources>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <SiaSf:SfDataGrid x:Name="dataGridCxC" Grid.Row="0" EnableDataVirtualization="True" AutoGenerateColumns="False" ShowGroupDropArea="True"  AllowFiltering="True"  ItemsSource="{Binding DtTraslados}" HeaderStyle="{StaticResource headerStyle}"  VerticalAlignment="Top" FilterChanged="dataGrid_FilterChanged">
+                            <SiaSf:SfDataGrid.Columns>
+                                <SiaSf:GridTextColumn HeaderText="Codigo Cliente" MappingName="cod_ter" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Nombre Cliente" MappingName="nom_ter" Width="250" />
+                                <SiaSf:GridTextColumn HeaderText="Nombre Vendedor" MappingName="nom_mer" Width="250" />
+                                <SiaSf:GridTextColumn HeaderText="Fecha de Registro" MappingName="fecha_reg" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Nombre de Punto" MappingName="nombre_p" Width="180" />
+                                <SiaSf:GridTextColumn HeaderText="Porcentaje" MappingName="porcentaje" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Valor Inicial" MappingName="val_ini" Width="250" />
+                                <SiaSf:GridTextColumn HeaderText="Valor Final" MappingName="val_fin" Width="250" />
+                            </SiaSf:SfDataGrid.Columns>
+                        </SiaSf:SfDataGrid>
+
+                    
+                        
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="2" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1" >
+                    <Grid Background="black" Grid.Row="1" Margin="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Total de Registros: " Margin="10 0 0 0"></TextBlock>
+                        <TextBlock Name="TotalRegis"  Grid.Column="1" Foreground="#c0392b" HorizontalAlignment="Left" VerticalAlignment="Center" ></TextBlock>
+
+                        <TextBlock Grid.Column="2" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Total de Puntos : " Margin="10 0 0 0"></TextBlock>
+                        <TextBlock Grid.Column="3" x:Name="total" Foreground="#c0392b" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="5 0 0 0"></TextBlock>
+
+                       
+
+                        <TextBlock Grid.Column="5" HorizontalAlignment="Right" Foreground="White" VerticalAlignment="Center" Margin="0 0 5 0">Usuario:</TextBlock>
+                        <TextBlock Grid.Column="6" Foreground="#c0392b" x:Name="TxtUser" Grid.ColumnSpan="3"  VerticalAlignment="Center" Margin="0 0 5 0"></TextBlock>
+                        
+                    </Grid>
+                 </Border>
+                
+     
+
+            </Grid>
+        </SiaSf:TabItemExt>
+        
+    </SiaSf:TabControlExt>
+    
+</UserControl>
+
+    
+    
+    

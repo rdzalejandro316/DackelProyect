@@ -1,0 +1,108 @@
+﻿<UserControl x:Class="SiasoftAppExt.DatosClientes"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:SiaSf="http://schemas.syncfusion.com/wpf"
+             xmlns:local="clr-namespace:SiasoftAppExt"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1500">
+    
+    <SiaSf:TabControlExt Name="TabControl1" Margin="5,0,10,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  SiaSf:SkinStorage.VisualStyle="Metro"  IsDisableUnloadTabItemExtContent="True">
+        <SiaSf:TabItemExt Name="tabItemExt1"  Header="Datos Cliente" Width="150" HeaderMargin="30 0 0 0 " FontSize="14" >
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0" Background="Black">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Seleccione un Cliente" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10 0 10 0" Grid.Column="0"/>
+                    <TextBox Name="TBX_cliente" Grid.Column="1" Margin="5" PreviewKeyDown="TBCliente_PreviewKeyDown" Tag="comae_ter"></TextBox>
+                    <TextBox Name="LB_cliente" Visibility="Hidden"></TextBox>
+
+                    <Button Content="Consultar" Name="Consultar" Grid.Column="4" Margin="5" BorderBrush="{x:Null}" Background="DodgerBlue" Cursor="Hand"  Click="Consultar_Click" IsEnabled="False"/>
+                    <Button Content="Exportar XLS" Name="Exportar" Grid.Column="5" Margin="5" BorderBrush="{x:Null}" Background="DodgerBlue" Cursor="Hand"  Click="Exportar_Click" IsEnabled="False"/>
+                                      
+                </Grid>
+
+                <Border Grid.Row="1"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5" >
+                    <Grid>
+                        <Grid.Resources>
+                            <Style TargetType="SiaSf:GridHeaderCellControl" x:Key="headerStyle">
+                                <Setter Property="Background" Value="#2980b9"/>
+                                <Setter Property="Foreground" Value="WhiteSmoke"/>
+                                <Setter Property="FontSize" Value="12"/>
+                            </Style>
+                        </Grid.Resources>
+
+                        <SiaSf:SfDataGrid x:Name="dataGridCxC" FrozenColumnCount="2"  EnableDataVirtualization="True" AutoGenerateColumns="False" ShowGroupDropArea="True"  AllowFiltering="True"   HeaderStyle="{StaticResource headerStyle}"  VerticalAlignment="Top" Margin="5" Height="Auto" FontSize="12">
+                            <SiaSf:SfDataGrid.Columns>
+                                <SiaSf:GridTextColumn HeaderText="Codigo" MappingName="cod_ter" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Nombre Registrado" MappingName="nom_ter" Width="300"/>
+                                <SiaSf:GridTextColumn HeaderText="Tipo de Documento" MappingName="tdoc" Width="150" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Tipo de Documento" MappingName="nom_tdoc" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Numero de Documento" MappingName="num_doc" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Primer Nombre" MappingName="nom1" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Segundo Nombre" MappingName="nom2" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Primer Apellido" MappingName="apell1" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Segundo Apellido" MappingName="apell2" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Primer Telefono" MappingName="tel1" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Segundo Telefono" MappingName="tel2" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Celular" MappingName="cel" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Email" MappingName="email" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Fecha de Nacimiento" MappingName="fec_cump" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Edad" MappingName="edad" Width="250"/>
+                                <SiaSf:GridTextColumn HeaderText="Genero" MappingName="genero" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Estado Civil" MappingName="est_civil" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Direccion Registrada" MappingName="dir1" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Dirreccion Casa" MappingName="dir" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Direccion Oficina" MappingName="dir2" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Departamento" MappingName="cod_depa" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Departamento" MappingName="nom_dep" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Municipio" MappingName="cod_ciu" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Ciudad" MappingName="nom_muni" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Hobbie" MappingName="hobbies" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Observaciones" MappingName="observ" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Nombre de la empresa" MappingName="nom_emp" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="codigo Actividad de la empresa" MappingName="act_emp" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Actividad de la empresa" MappingName="nom_actEmp" Width="200" />
+                                <SiaSf:GridTextColumn HeaderText="Cargo" MappingName="cod_cargo" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Cargo" MappingName="nom_cargo" Width="200" />
+                                <SiaSf:GridTextColumn HeaderText="Profesion" MappingName="cod_ocup" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Profesion" MappingName="nom_ocup" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Ocupacion" MappingName="cod_prof" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Ocupacion" MappingName="nom_prof" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Contacto por celular" MappingName="ct_cel" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Contacto por email" MappingName="ct_email" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Contacto por correspondensia" MappingName="ct_corres" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Contacto por WhatsApp" MappingName="ct_whats" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Contacto por SMS" MappingName="ct_sms" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Imagen" MappingName="image_name" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Rango de edad" MappingName="ran_edad" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Vendedor Asignado" MappingName="nom_mer" Width="200"/>
+                            </SiaSf:SfDataGrid.Columns>
+                        </SiaSf:SfDataGrid>
+
+                    </Grid>
+                </Border>
+
+
+
+            </Grid>
+        </SiaSf:TabItemExt>
+    </SiaSf:TabControlExt>
+            
+</UserControl>

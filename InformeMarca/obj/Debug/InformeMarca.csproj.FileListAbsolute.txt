@@ -1,0 +1,42 @@
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca_MarkupCompile.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca_MarkupCompile.lref
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.g.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.Properties.Resources.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\InformeMarca.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\InformeMarca.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csproj.CopyComplete
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csproj.CopyComplete
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeMarca.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeMarca.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeMarca\obj\Debug\InformeMarca.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeMarca.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeMarca.pdb

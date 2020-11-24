@@ -1,0 +1,13 @@
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\Google Sheets.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\Google_Sheets.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\Google Sheets_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\Google Sheets_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\Google_Sheets.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\Google Sheets.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\Google_Sheets.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\Google Sheets.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\Google Sheets.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\Google Sheets.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\Google Sheets.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\Google Sheets.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\Google Sheets.pdb

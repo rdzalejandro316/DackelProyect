@@ -1,0 +1,187 @@
+﻿<UserControl x:Class="SiasoftAppExt.SALINVENYESID"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+             xmlns:local="clr-namespace:SiasoftAppExt"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1000">
+
+    <UserControl.Resources>
+        <Style TargetType="syncfusion:GridHeaderCellControl" x:Key="headerStyle">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#373737"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Grid Margin="5">
+            <Border Background="White">
+                <Border.Effect>
+                    <DropShadowEffect Direction="0" ShadowDepth="0.5" BlurRadius="5" Color="Black"/>
+                </Border.Effect>
+            </Border>
+            <Grid Grid.Row="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Fecha: " Margin="10 0 10 0 " HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <DatePicker Name="FecIni"   Grid.Column="4" VerticalAlignment="Center" Margin="5 0 10 0 "/>
+
+
+                </Grid>
+
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="13*"/>
+                        <RowDefinition Height="7*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Bodega: " Margin="0,12,9,12" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.RowSpan="2"/>
+                    <TextBox x:Name="TextBoxbod" Grid.Column="1" Margin="5" PreviewKeyDown="TextBox_PreviewKeyDown" Tag="inmae_bod" Grid.RowSpan="2"></TextBox>
+
+
+                </Grid>
+
+                <Grid Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="13*"/>
+                        <RowDefinition Height="7*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Grupo: " Margin="0,12,9,12" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.RowSpan="2"/>
+                    <TextBox x:Name="TextBoxGru" Grid.Column="1" Margin="5" PreviewKeyDown="TextBox_PreviewKeyDown" Tag="inmae_gru" Grid.RowSpan="2"></TextBox>
+
+
+                </Grid>
+
+                <Grid Grid.Column="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="13*"/>
+                        <RowDefinition Height="7*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Linea: " Margin="0,12,9,12" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.RowSpan="2"/>
+                    <TextBox x:Name="TextBoxtip" Grid.Column="1" Margin="5" PreviewKeyDown="TextBox_PreviewKeyDown" Tag="inmae_tip" Grid.RowSpan="2"></TextBox>
+
+
+                </Grid>
+
+                <Grid Grid.Column="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Sexo: " Margin="0,12,9,12" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.RowSpan="2"/>
+                    <!--<TextBox x:Name="TextBoxtsexo" Grid.Column="1" Margin="5"  Grid.RowSpan="2"></TextBox>-->
+                    <ComboBox Grid.Column="1" Margin="5" Name="CBlinea">
+                        <ComboBoxItem>C</ComboBoxItem>
+                        <ComboBoxItem>D</ComboBoxItem>
+                        <ComboBoxItem>I</ComboBoxItem>
+                        <ComboBoxItem>D,C</ComboBoxItem>
+                        <ComboBoxItem>D,I</ComboBoxItem>
+                        <ComboBoxItem>C,I</ComboBoxItem>
+                        <ComboBoxItem IsSelected="True">D,C,I</ComboBoxItem>
+                    </ComboBox>
+
+                </Grid>
+                <Grid Grid.Column="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" Margin="5" Background="DodgerBlue" Click="Button_Click" Cursor="Hand" Foreground="White" BorderBrush="{x:Null}">Consultar</Button>
+                    <Button Grid.Column="1" Margin="5" Background="DodgerBlue" Click="ExportaXLS_Click" Cursor="Hand" Foreground="White" BorderBrush="{x:Null}">Excel</Button>
+
+
+                </Grid>
+
+            </Grid>
+        </Grid>
+
+
+        <syncfusion:SfBusyIndicator Name="sfBusyIndicator" Margin="5" Grid.Row="1" VerticalAlignment="Bottom" FontSize="12" AnimationSpeed="100"  AnimationType="Rainy" Header="Cargando Datos - SiasoftApp" Height="200" IsBusy="False" />
+
+        <syncfusion:SfDataGrid Grid.Row="1" FrozenColumnCount="2" AllowResizingColumns="True" x:Name="GridKardex"  EnableDataVirtualization = "True" AutoGenerateColumns="False" ShowGroupDropArea="True" FontSize="10" AllowFiltering="True"  HeaderStyle="{StaticResource headerStyle}">
+            <syncfusion:SfDataGrid.Columns>
+                <syncfusion:GridTextColumn HeaderText="Cod_ref" MappingName="cod_ref" Width="100" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="Nom_ref" MappingName="nom_ref" Width="200" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="Nom_ref1" MappingName="nom_ref1" Width="200" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="Serial" MappingName="serial" Width="150" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="Grupo" MappingName="cod_gru" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="Nom_Grup" MappingName="nom_gru" Width="200" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="Talla" MappingName="cod_tall" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="% Desc" MappingName="por_des" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="Marca" MappingName="marca" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="desc_talla" MappingName="desc_tall" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="color" MappingName="color" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="Linea" MappingName="cod_tip" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="Nom_Linea" MappingName="nom_tip" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="Bodega" MappingName="Cod_bod" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="Ini_Bod" MappingName="ini_bod" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn DisplayBinding="{Binding Path=saldo_fin, StringFormat='{}{0:c}'}"  HeaderText="Saldo" TextAlignment="Right" Width="100"/>
+                <syncfusion:GridTextColumn DisplayBinding="{Binding Path=cost_bas, StringFormat='{}{0:c}'}"  HeaderText="Costo" TextAlignment="Right" Width="100"/>
+                <syncfusion:GridTextColumn HeaderText="Sexo" MappingName="sexo" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn DisplayBinding="{Binding Path=val_ref, StringFormat='{}{0:c}'}"  HeaderText="Val_ref" TextAlignment="Right" Width="100"/>
+                <syncfusion:GridTextColumn DisplayBinding="{Binding Path=prec_total, StringFormat='{}{0:c}'}"  HeaderText="prec_total" TextAlignment="Right" Width="100"/>
+                <syncfusion:GridTextColumn HeaderText="Fec_crea" MappingName="fec_crea" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="cod_imp" MappingName="cod_imp" Width="70" TextAlignment="Left" />
+                <syncfusion:GridTextColumn HeaderText="anos" MappingName="anos" Width="70" TextAlignment="Left" />
+
+
+
+
+
+
+
+            </syncfusion:SfDataGrid.Columns>
+        </syncfusion:SfDataGrid>
+
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="Registros : " Margin="5 0 0 0" FontWeight="Bold"/>
+                <TextBlock Name="Tx_rows" Text="0"/>
+            </StackPanel>
+        </Grid>
+        
+
+    </Grid>
+</UserControl>

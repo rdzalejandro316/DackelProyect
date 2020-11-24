@@ -1,0 +1,49 @@
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\bin\Debug\RecibosDeCaja.dll
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\bin\Debug\RecibosDeCaja.pdb
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\obj\Debug\RecibosDeCaja.baml
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\obj\Debug\RecibosDeCaja.g.cs
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\obj\Debug\RecibosDeCaja_MarkupCompile.cache
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\obj\Debug\RecibosDeCaja.g.resources
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\obj\Debug\RecibosDeCaja.Properties.Resources.resources
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\obj\Debug\RecibosDeCaja.csproj.GenerateResource.Cache
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\obj\Debug\RecibosDeCaja.csproj.CoreCompileInputs.cache
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\obj\Debug\RecibosDeCaja.dll
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\obj\Debug\RecibosDeCaja.pdb
+C:\Users\wilmer\Documents\Visual Studio 2017\Projects\WpfControlLibrary1\RecibosDeCaja\obj\Debug\RecibosDeCaja.csprojResolveAssemblyReference.cache
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\RecibosDeCaja.dll
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\RecibosDeCaja.pdb
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\RecibosDeCaja.dll
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\RecibosDeCaja.pdb
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.csprojResolveAssemblyReference.cache
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.baml
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.g.cs
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja_MarkupCompile.cache
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.g.resources
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.Properties.Resources.resources
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.csproj.GenerateResource.Cache
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.csproj.CoreCompileInputs.cache
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.dll
+C:\Fuentes\SiasoftAppBeta\SiasoftAppBeta1-2.3.118092017a\SiasoftAppBeta1-2.3.118092017\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.pdb
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.csprojResolveAssemblyReference.cache
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.baml
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.g.cs
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja_MarkupCompile.cache
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.g.resources
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.Properties.Resources.resources
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.csproj.GenerateResource.Cache
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.csproj.CoreCompileInputs.cache
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.dll
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.pdb
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\RecibosDeCaja.dll
+C:\Fuentes\SiasoftAppFuentes\SiasoftAppBeta1-2.3.1\SiasoftApp\bin\Debug\Library\RecibosDeCaja.pdb
+C:\Debug02102017\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.csprojResolveAssemblyReference.cache
+C:\Debug02102017\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.baml
+C:\Debug02102017\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.g.cs
+C:\Debug02102017\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja_MarkupCompile.cache
+C:\Debug02102017\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.g.resources
+C:\Debug02102017\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.Properties.Resources.resources
+C:\Debug02102017\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.csproj.GenerateResource.Cache
+C:\Debug02102017\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.dll
+C:\Debug02102017\Debug\Library\project\RecibosDeCaja\obj\Debug\RecibosDeCaja.pdb
+C:\Debug02102017\Debug\Library\RecibosDeCaja.dll
+C:\Debug02102017\Debug\Library\RecibosDeCaja.pdb

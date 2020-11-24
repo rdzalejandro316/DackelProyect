@@ -1,0 +1,42 @@
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\CampaComercial.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\CampaComercial.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\CampaComercial.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\CampaComercial.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\CampaComercial\obj\Debug\CampaComercial.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\CampaComercial.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\CampaComercial.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\CampaComercial.dll.CodeAnalysisLog.xml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\CampaComercial.dll.lastcodeanalysissucceeded

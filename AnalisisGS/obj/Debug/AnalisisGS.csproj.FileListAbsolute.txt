@@ -1,0 +1,4 @@
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AnalisisGS\obj\Debug\AnalisisGS.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\AnalisisGS\obj\Debug\AnalisisGS_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AnalisisGS\obj\Debug\AnalisisGS.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\AnalisisGS\obj\Debug\AnalisisGS_MarkupCompile.cache

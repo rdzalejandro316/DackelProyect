@@ -1,0 +1,54 @@
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csprojAssemblyReference.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.g.cs
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos_MarkupCompile.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos_MarkupCompile.lref
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.baml
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.g.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.Properties.Resources.resources
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.GenerateResource.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.CoreCompileInputs.cache
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeCliNuevos.dll
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\InformeCliNuevos.pdb
+H:\Nueva carpeta\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.CopyComplete
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.g.cs
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos_MarkupCompile.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos_MarkupCompile.lref
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.baml
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.g.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.Properties.Resources.resources
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.CopyComplete
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.pdb
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\InformeCliNuevos.dll
+C:\Users\pc\Desktop\SiasoftLeco18062018\SiasoftLeco\Library\InformeCliNuevos.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\InformeCliNuevos.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\InformeCliNuevos.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\InformeCliNuevos\obj\Debug\InformeCliNuevos.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeCliNuevos.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\InformeCliNuevos.pdb

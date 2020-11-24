@@ -1,0 +1,41 @@
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\credenYo.json
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\GoogleSheets.dll.config
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\GoogleSheets.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\GoogleSheets.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\SiasoftLeco\Library\GoogleSheets.pdb
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.csprojAssemblyReference.cache
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.g.cs
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets_MarkupCompile.cache
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets_MarkupCompile.lref
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.baml
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.g.resources
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.Properties.Resources.resources
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.csproj.GenerateResource.cache
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.csproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.csproj.CopyComplete
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.dll
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\project\Google Sheets\obj\Debug\GoogleSheets.pdb
+C:\Users\aleja\OneDrive\Escritorio\SiasoftLeco\Library\GoogleSheets.pdb

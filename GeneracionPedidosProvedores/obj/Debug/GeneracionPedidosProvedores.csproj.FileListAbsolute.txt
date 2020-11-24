@@ -1,0 +1,14 @@
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores.csprojAssemblyReference.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores_MarkupCompile.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores.g.cs
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores_MarkupCompile.lref
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores.baml
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores.g.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores.Properties.Resources.resources
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores.csproj.GenerateResource.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores.csproj.CopyComplete
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\project\GeneracionPedidosProvedores\obj\Debug\GeneracionPedidosProvedores.pdb
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\GeneracionPedidosProvedores.dll
+C:\Users\alejandro\Desktop\SiasoftLeco\Library\GeneracionPedidosProvedores.pdb

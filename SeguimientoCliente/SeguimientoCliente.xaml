@@ -1,0 +1,414 @@
+﻿<UserControl x:Class="SiasoftAppExt.SeguimientoCliente"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"              
+             xmlns:skinManager="clr-namespace:Syncfusion.SfSkinManager;assembly=Syncfusion.SfSkinManager.WPF"
+             xmlns:SiaSf="http://schemas.syncfusion.com/wpf"
+             xmlns:chart="clr-namespace:Syncfusion.UI.Xaml.Charts;assembly=Syncfusion.SfChart.WPF" 
+             xmlns:local="clr-namespace:SiasoftAppExt"
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="1500"    xmlns:SFDataGrid="clr-namespace:Syncfusion.Windows.Controls.Grid;assembly=Syncfusion.Grid.Wpf">
+
+    <SiaSf:TabControlExt Name="TabControl1" Margin="5,0,10,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  SiaSf:SkinStorage.VisualStyle="Metro"  IsDisableUnloadTabItemExtContent="True">
+
+
+        <SiaSf:TabItemExt Name="tabItemExt1"  Header="Clientes" FontSize="14" >
+            <Grid Background="White" Name="TAB1">
+                <Grid.Resources>
+                    <Style TargetType="SiaSf:GridHeaderCellControl" x:Key="headerStyle">
+                        <Setter Property="Background" Value="black"/>
+                        <Setter Property="Foreground" Value="WhiteSmoke"/>
+                        <Setter Property="FontSize" Value="14"/>
+                    </Style>
+                </Grid.Resources>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+
+                <Grid Name="Panel1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.2*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Column="0"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5 2 5 2">
+                        <Grid>
+                            <TextBlock Foreground="#c0392b" RenderTransformOrigin="0.5,0.5" Padding="2" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                <TextBlock.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="270"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </TextBlock.RenderTransform>FOTO</TextBlock>
+                            <Image Grid.Column="5" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="7" Height="90"  Width="90" Name="image1" Stretch="Fill"/>
+                        </Grid>
+                    </Border>
+
+
+                    <Border Name="PanelTallas" Grid.Column="1"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5 2 5 2" >
+                        <Grid>
+                            <!--<Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="0.4*"/>
+                            </Grid.ColumnDefinitions>-->
+
+                            <Grid Grid.Column="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="0.5*"/>
+                                    <RowDefinition Height="1*"/>
+                                    <RowDefinition Height="1*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="50"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.Resources>
+                                    <Style TargetType="TextBlock" x:Key="tit">
+                                        <Setter Property="Margin" Value="5 0 0 0"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="HorizontalAlignment" Value="Right"/>
+                                        <Setter Property="FontSize" Value="13"/>
+                                        <Setter Property="FontWeight" Value="Bold"/>
+                                    </Style>
+                                    <Style TargetType="TextBlock" x:Key="TXBvalue">
+                                        <Setter Property="Foreground" Value="Orange"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="HorizontalAlignment" Value="Left"/>
+                                        <Setter Property="FontSize" Value="13"/>
+                                    </Style>
+                                </Grid.Resources>
+
+                                <Border Background="#3498db" HorizontalAlignment="Left" Height="auto">
+                                    <TextBlock Text="Tallas del cliente" Margin="10,5,10,5" Foreground="White" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Segoe UI Bold"/>
+                                </Border>
+
+
+                                <TextBlock Name="cam" Grid.Row="2" Grid.Column="0" Text="T de Zapatos - Tennis : " Style="{StaticResource tit}"/>
+                                <TextBlock Name="TBtalla1" Grid.Column="1" Grid.Row="2" Style="{StaticResource TXBvalue}"/>
+                                <TextBlock Name="CODtalla1" Visibility="Hidden"></TextBlock>
+
+                                <TextBlock Grid.Column="2" Grid.Row="2" Text="T de Pantalon - Falda : " Style="{StaticResource tit}"/>
+                                <TextBlock Name="TBtalla2" Grid.Column="3" Grid.Row="2" Style="{StaticResource TXBvalue}" />
+                                <TextBlock Name="CODtalla2" Visibility="Hidden"></TextBlock>
+
+                                <TextBlock Grid.Column="4" Grid.Row="2" Text="T de Vestido - Traje : " Style="{StaticResource tit}"/>
+                                <TextBlock Name="TBtalla3" Grid.Column="5" Grid.Row="2" Style="{StaticResource TXBvalue}" />
+                                <TextBlock Name="CODtalla3" Visibility="Hidden"></TextBlock>
+
+                                <TextBlock Grid.Column="6" Grid.Row="2" Text="T de Camisa - Sport : " Style="{StaticResource tit}"/>
+                                <TextBlock Name="TBtalla5" Grid.Column="7" Grid.Row="2" Style="{StaticResource TXBvalue}"></TextBlock>
+                                <TextBlock Name="CODtalla5" Visibility="Hidden"></TextBlock>
+
+                                <TextBlock HorizontalAlignment="Right" Grid.Column="8" Grid.Row="2" Text="T de Camisa - Formal : " Style="{StaticResource tit}"/>
+                                <TextBlock Name="TBtalla4" Grid.Column="9" Grid.Row="2" Style="{StaticResource TXBvalue}"></TextBlock>
+                                <TextBlock Name="CODtalla4" Visibility="Hidden"></TextBlock>
+
+                                <TextBlock Name="TBcodcliente" Grid.Column="2" Grid.Row="3" Style="{StaticResource TXBvalue}" Visibility="Hidden"/>
+                                <TextBlock Name="TBcliente" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="5"  VerticalAlignment="Center" />
+                            </Grid>
+
+                        </Grid>
+                    </Border>
+
+                    <Border Grid.Column="2" Name="panelBuscar"  BorderBrush="Black" BorderThickness="1,1,1,1" Margin="5">
+                        <Grid Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock Name="label_cliente" Text="Buscar Vendedor : "  Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Visibility="Visible" FontWeight="Bold"/>
+                            <TextBox Name="TXB_cliente" Grid.Column="8" Grid.Row="1" PreviewKeyDown="TXB_cliente_PreviewKeyDown" Foreground="#c0392b" Visibility="Visible"  Margin="10 5 10 5"/>
+                            <TextBlock Name="LB_cliente" Visibility="Hidden"></TextBlock>
+                            <Button Name="BTNbuscar" Content="Consultar" Background="DodgerBlue" Width="120" Grid.Row="2" Cursor="Hand" Click="BTNbuscar_Click" Visibility="Visible" Margin="0 0 10 0" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="False" BorderBrush="{x:Null}" Padding="3" Foreground="White"/>
+                        </Grid>
+                    </Border>
+
+
+
+                </Grid>
+
+                <Border Grid.Row="1" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="5" Visibility="Visible" Name="B2">
+                    <Grid>
+                        <SiaSf:SfDataGrid x:Name="dataGridCxC" AllowResizingColumns="True" FrozenColumnCount="2"  SelectionChanged="FirstDetailsViewGrid_SelectionChanged" EnableDataVirtualization="True" AutoGenerateColumns="False" ShowGroupDropArea="True"  AllowFiltering="True"  ItemsSource="{Binding DtTraslados}"  HeaderStyle="{StaticResource headerStyle}"  Margin="5" FontSize="10" KeyDown="dataGridCxC_KeyDown" ToolTip="Presione f6 para abrir Busqueda">
+                            <SiaSf:SfDataGrid.Columns>
+                                <SiaSf:GridTextColumn HeaderText="Codigo" MappingName="cod_ter" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Nombre Registrado" MappingName="nom_ter" Width="300"/>
+                                <SiaSf:GridTextColumn HeaderText="Tipo de Documento" MappingName="tdoc" Width="150" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Tipo de Documento" MappingName="nom_tdoc" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Numero de Documento" MappingName="num_doc" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Primer Nombre" MappingName="nom1" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Segundo Nombre" MappingName="nom2" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Primer Apellido" MappingName="apell1" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Segundo Apellido" MappingName="apell2" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Primer Telefono" MappingName="tel1" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Segundo Telefono" MappingName="tel2" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Celular" MappingName="cel" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Email" MappingName="email" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Fecha de Nacimiento" MappingName="fec_cump" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Edad" MappingName="edad" Width="250"/>
+                                <SiaSf:GridTextColumn HeaderText="Genero" MappingName="genero" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Estado Civil" MappingName="est_civil" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Direccion Registrada" MappingName="dir1" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Dirreccion Casa" MappingName="dir" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Direccion Oficina" MappingName="dir2" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Departamento" MappingName="cod_depa" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Departamento" MappingName="nom_dep" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Municipio" MappingName="cod_ciu" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Ciudad" MappingName="nom_muni" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Hobbie" MappingName="hobbies" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Observaciones" MappingName="observ" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Nombre de la empresa" MappingName="nom_emp" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="codigo Actividad de la empresa" MappingName="act_emp" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Actividad de la empresa" MappingName="nom_actEmp" Width="200" />
+                                <SiaSf:GridTextColumn HeaderText="Cargo" MappingName="cod_cargo" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Cargo" MappingName="nom_cargo" Width="200" />
+                                <SiaSf:GridTextColumn HeaderText="Profesion" MappingName="cod_prof" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Profesion" MappingName="nom_prof" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Ocupacion" MappingName="cod_ocup" Width="200" IsHidden="True"/>
+                                <SiaSf:GridTextColumn HeaderText="Ocupacion" MappingName="nom_ocup" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Contacto por celular" MappingName="ct_cel" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Contacto por email" MappingName="ct_email" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Contacto por correspondensia" MappingName="ct_corres" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Contacto por WhatsApp" MappingName="ct_whats" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Contacto por SMS" MappingName="ct_sms" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Rango de edad" MappingName="ran_edad" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Codigo Vendedor" MappingName="cod_mer" Width="200"/>
+                                <SiaSf:GridTextColumn HeaderText="Vendedor Asignado" MappingName="nom_mer" Width="200"/>
+                            </SiaSf:SfDataGrid.Columns>
+                        </SiaSf:SfDataGrid>
+                    </Grid>
+                </Border>
+
+            <Border Grid.Row="2"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="0 0 0 0" Background="#FF1C1D22">
+                <Grid  Name="grid" HorizontalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.8*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.Resources>
+                        <Style TargetType="Button" x:Key="controles">
+                            <Setter Property="Foreground" Value="Black"/>
+                            <Setter Property="Background" Value="#2980b9"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="Margin" Value="5"/>
+                            <Setter Property="IsEnabled" Value="False"/>
+                            <Setter Property="BorderBrush" Value="{x:Null}"/>
+                            <Setter Property="Width" Value="200"/>
+                        </Style>
+                    </Grid.Resources>
+
+                    <TextBlock Text="CONTROLES : " Foreground="#c0392b" HorizontalAlignment="Right" VerticalAlignment="Center" ></TextBlock>
+                    <Button x:Name="BtnEditar" Grid.Column="1" Content="Editar Cliente" Click="BtnEdit_Click" Style="{StaticResource controles}" />
+                    <Button x:Name="BtnSegCli" Grid.Column="2" Content="Seguimiento Telemercadeo" Click="BtnSeg_Click"  Style="{StaticResource controles}"/>
+                    <Button x:Name="BtnHisCom" Grid.Column="3" Content="Historico Comercial" Click="BtnHis_Click" Style="{StaticResource controles}"/>
+                    <Button x:Name="BtnSegComp" Grid.Column="4" Content="Seguimiento de Compra" Click="BtnSegCompra_Click" Style="{StaticResource controles}"/>
+                    <Button x:Name="BtnExpCli" Grid.Column="5" Content="Exportar XLS" Click="ExportaXLS_Click" Style="{StaticResource controles}"/>
+                </Grid>
+            </Border>
+
+            <Grid  Background="black" Grid.Row="3" Name="B3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.6*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="1.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.Resources>
+                    <Style TargetType="TextBlock" x:Key="Title">
+                        <Setter Property="HorizontalAlignment" Value="Right"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                    </Style>
+                    <Style TargetType="TextBlock" x:Key="value">
+                        <Setter Property="HorizontalAlignment" Value="Left"/>
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="Foreground" Value="#2980b9"/>
+                    </Style>
+                </Grid.Resources>
+
+                <TextBlock Grid.Column="0" Text="Total Clientes : " Style="{StaticResource Title}"/>
+                <TextBlock Grid.Column="1" x:Name="TxtCantiCli" Style="{StaticResource value}" />
+
+
+                <TextBlock Grid.Column="2" Text="Codigo : " Style="{StaticResource Title}" />
+                <TextBlock Grid.Column="3" x:Name="TxtUser" Style="{StaticResource value}"/>
+
+                <TextBlock Grid.Column="4" Text="Tipo de usuario : " Style="{StaticResource Title}" />
+                <TextBlock Grid.Column="5" x:Name="TxtTipUser" Style="{StaticResource value}"/>
+
+                <TextBlock Grid.Column="6" Text="Usuario : " Style="{StaticResource Title}" />
+                <TextBlock Grid.Column="7" x:Name="TxtUserName" Style="{StaticResource value}"/>
+
+                <TextBlock Grid.Column="8" Text="Cod Bodega : " Style="{StaticResource Title}"/>
+                <TextBlock Grid.Column="9" x:Name="TXTbodega" Style="{StaticResource value}"/>
+
+            </Grid>
+
+            </Grid>
+        </SiaSf:TabItemExt>
+
+        <SiaSf:TabItemExt Name="tabItemExt2"  Header="Clientes en campañas" FontSize="14" >
+            <Grid>
+                <Grid.Resources>
+                    <Style TargetType="SiaSf:GridHeaderCellControl" x:Key="headerStyle">
+                        <Setter Property="Background" Value="black"/>
+                        <Setter Property="Foreground" Value="WhiteSmoke"/>
+                        <Setter Property="FontSize" Value="12"/>
+                    </Style>
+                </Grid.Resources>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+
+
+                <Border Grid.Row="0"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5" >
+                    <Grid Name="TAB2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="160"/>
+                            <ColumnDefinition Width="160"/>
+                            <ColumnDefinition Width="160"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.Resources>
+                            <Style TargetType="Button" x:Key="ControlCamp">
+                                <Setter Property="Background" Value="#3498db"/>
+                                <Setter Property="BorderBrush" Value="{x:Null}"/>
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Setter Property="Margin" Value="3"/>
+                            </Style>
+                        </Grid.Resources>
+
+                        <TextBlock Text="Controles : " VerticalAlignment="Center" HorizontalAlignment="Right" Foreground="#c0392b" FontWeight="Bold"/>
+                        <Button Grid.Column="1" Content="Cargar Campañas" Click="Button_CargarCampa_Click" Style="{StaticResource ControlCamp}"/>
+                        <Button Name="BTNsegCampa" Grid.Column="2" Content="Realizar Seguimiento" Click="BTNsegCampa_Click" Style="{StaticResource ControlCamp}"/>
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="1"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <SiaSf:SfDataGrid x:Name="dataGridCliCamp" AllowResizingColumns="True" EnableDataVirtualization="True" AutoGenerateColumns="False" ShowGroupDropArea="False"  AllowFiltering="True"  ItemsSource="{Binding DtTraslados}"  HeaderStyle="{StaticResource headerStyle}" Margin="5"   FontSize="10">
+                                <SiaSf:SfDataGrid.Columns>
+                                    <SiaSf:GridTextColumn HeaderText="Codigo" MappingName="cod_ter" Width="150" />
+                                    <SiaSf:GridTextColumn HeaderText="Nombre Cliente" MappingName="nom_ter" Width="300" />
+                                    <SiaSf:GridTextColumn HeaderText="Codigo Camp" MappingName="cod_camp" Width="100" />
+                                    <SiaSf:GridTextColumn HeaderText="Nombre de la Campaña" MappingName="nom_camp" Width="300" />
+                                    <SiaSf:GridTextColumn HeaderText="Fecha Inicial" MappingName="fecha_ini" Width="150" />
+                                    <SiaSf:GridTextColumn HeaderText="Fecha Final" MappingName="fecha_fin" Width="150" />
+                                </SiaSf:SfDataGrid.Columns>
+                            </SiaSf:SfDataGrid>
+                            <chart:SfChart Header="Seguimientos en campañas activas" Grid.Column="1" Width="400" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 10 10 0">
+                                <chart:SfChart.SecondaryAxis>
+                                    <chart:NumericalAxis Header="Total" FontSize="12"/>
+                                </chart:SfChart.SecondaryAxis>
+                                <chart:ColumnSeries Name="ChatTotSeg" Label="Heights" ItemsSource="{Binding TotalSeguimiento}" XBindingPath="total" YBindingPath="seguimiento" ShowTooltip="True" >
+                                    <chart:ColumnSeries.AdornmentsInfo>
+                                        <chart:ChartAdornmentInfo ShowLabel="True" >
+                                        </chart:ChartAdornmentInfo>
+                                    </chart:ColumnSeries.AdornmentsInfo>
+                                </chart:ColumnSeries>
+                            </chart:SfChart>
+                        </Grid>
+
+                        <Border Name="CharVentasBodega" Grid.Row="1"  BorderBrush="Silver" BorderThickness="1,1,1,1" Margin="5" >
+                            <Grid >
+                                <Grid.Resources>
+                                    <DataTemplate x:Key="headerTemplate">
+                                        <TextBlock FontSize="12" Foreground="Black" Margin="5" Text="{Binding}"/>
+                                    </DataTemplate>
+                                    <DataTemplate x:Key="labelTemplate">
+                                        <TextBlock FontSize="10" Foreground="#2980b9"  Margin="1" Text="{Binding Path=LabelContent}"/>
+                                    </DataTemplate>
+                                    <Style TargetType="Line" x:Key="AxisStyle">
+                                        <Setter Property="Stroke" Value="DarkGray"  />
+                                        <Setter Property="StrokeThickness" Value="1"/>
+                                    </Style>
+                                </Grid.Resources>
+
+                                <SiaSf:SfBusyIndicator Name="sfBusyIndicator" Margin="5"  Grid.Row="1" VerticalAlignment="Center" FontSize="12" AnimationSpeed="100" AnimationType="Rainy" Header="Cargando Datos - SiasoftApp" Height="200" IsBusy="False" />
+
+                                <chart:SfChart Header="Campañas" FontSize="14" FontWeight="Bold" Margin="0 0 10 0">
+                                    <chart:SfChart.SecondaryAxis>
+                                        <chart:NumericalAxis Header="# personas en campaña" FontSize="14" />
+                                    </chart:SfChart.SecondaryAxis>
+                                    <chart:BarSeries x:Name="ChartDT"  ItemsSource="{Binding Clientes}" XBindingPath="nom_camp" YBindingPath="suma" ShowTooltip="True"  AnimationDuration="00:00:03"/>
+                                </chart:SfChart>
+
+                            </Grid>
+                        </Border>
+
+
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="2"  BorderBrush="Silver" BorderThickness="1,1,1,1" >
+                    <Grid Grid.Row="0" Background="black">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="1.8*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Clientes en Campaña : " Margin="10 0 0 0" FontWeight="Bold"></TextBlock>
+                        <TextBlock Grid.Column="1" Foreground="#c0392b" HorizontalAlignment="Left" VerticalAlignment="Center" Name="TBcampSi"></TextBlock>
+
+                        <TextBlock Grid.Column="2" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Clientes que no estan en Campañas : " FontWeight="Bold"></TextBlock>
+                        <TextBlock Grid.Column="3" Foreground="#c0392b" HorizontalAlignment="Left" VerticalAlignment="Center" Name="TBcampNo" ></TextBlock>
+
+
+                    </Grid>
+                </Border>
+
+
+            </Grid>
+        </SiaSf:TabItemExt>
+
+    </SiaSf:TabControlExt>
+</UserControl>
+
+    

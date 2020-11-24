@@ -1,0 +1,78 @@
+﻿<Window x:Class="RegistroBono.Registrar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroBono"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Registrar" Height="400" Width="500">
+
+
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="Grid" x:Key="grid">
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="Width" Value="Auto"/>
+                <Setter Property="Height" Value="Auto"/>
+            </Style>
+            <Style TargetType="Border" x:Key="card">
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="Effect">
+                    <Setter.Value>
+                        <DropShadowEffect Direction="0" ShadowDepth="0.5" BlurRadius="5" Color="Black"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style TargetType="Button" x:Key="search">
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="Background" Value="{x:Null}"/>
+                <Setter Property="BorderBrush" Value="{x:Null}"/>
+                <Setter Property="Cursor" Value="Hand"/>
+            </Style>
+        </Grid.Resources>
+
+        <Grid Width="400" Height="350" Style="{StaticResource grid}">
+            <Border Style="{StaticResource card}"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Background="#03A9F4">
+                    <TextBlock Text="Resgitro de bonos" VerticalAlignment="Center" Margin="5 0 0 0" Foreground="White" FontSize="16"/>
+                </Grid>
+
+                <Grid Grid.Row="1" Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                   
+
+                    <TextBlock Grid.Row="0" Text="# de Bono : " VerticalAlignment="Center" HorizontalAlignment="Right" FontWeight="Bold"/>
+                    <TextBox Name="Tx_Bono" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Height="30" Margin="5 0 10 0" LostFocus="Tx_bono_LostFocus"/>
+
+                    <TextBlock Grid.Row="1" Text="Valor del Bono : " VerticalAlignment="Center" HorizontalAlignment="Right" FontWeight="Bold"/>
+                    <TextBox Name="Tx_valor" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"  Height="30" Margin="5 0 10 0" PreviewKeyDown="ValidacionNumeros"/>
+
+                    <Grid Grid.Row="3" Grid.ColumnSpan="3">
+                        <Button Name="BtnRegistrar" Content="Registrar" Click="BtnRegistrar_Click" Margin="15" Background="#03A9F4" Foreground="White" BorderBrush="{x:Null}"/>
+                    </Grid>
+                </Grid>
+
+            </Grid>
+        </Grid>
+    </Grid>
+
+
+
+</Window>

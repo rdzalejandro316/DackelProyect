@@ -1,0 +1,332 @@
+﻿<Window x:Class="SeguimientoCliente.Seguimiento"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SeguimientoCliente"
+             xmlns:SiaSf="http://schemas.syncfusion.com/wpf"
+             mc:Ignorable="d" 
+             Title="Seguimiento de Telemercadeo" Height="550" Width="1200" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+
+    <SiaSf:TabControlExt Name="TabControl1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  SiaSf:SkinStorage.VisualStyle="Metro"  IsDisableUnloadTabItemExtContent="True">
+        <SiaSf:TabItemExt Name="tabItemExt1"  Header="Seguimiento" Width="200" HeaderMargin="50 0 0 0 " FontSize="14" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.4*"/>
+                    <RowDefinition Height="0.3*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="5">
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0.3*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <TextBlock Text="Datos del Cliente" Background="Gray" Foreground="White" Height="Auto" VerticalAlignment="Top" Margin="10,0,0,0" Grid.ColumnSpan="2" Width="150" Grid.Column="0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                        </Grid>
+
+                        <Grid Grid.Row="1" Margin="30,0,30,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Resources>
+                                <Style TargetType="TextBlock" x:Key="label">
+                                    <Setter Property="Width" Value="70"/>
+                                    <Setter Property="TextWrapping" Value="WrapWithOverflow"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                                    <Setter Property="FontSize" Value="12"/>
+                                    <Setter Property="Foreground" Value="Black"/>
+                                </Style>
+                                <Style TargetType="TextBlock" x:Key="TextBx">
+                                    <Setter Property="Background" Value="#FFC5CCD1"/>
+                                    <Setter Property="Foreground" Value="Black"/>
+                                    <Setter Property="Margin" Value="10,6,0,6"/>
+                                    <Setter Property="FontSize" Value="11"/>
+                                    <Setter Property="Height" Value="Auto"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="Padding" Value="3"/>
+                                </Style>
+                            </Grid.Resources>
+
+
+                            <TextBlock Text="Nombre Completo : " Grid.Row="0" Grid.Column="0" Style="{StaticResource label}" />
+                            <TextBlock x:Name="TextBx_NomCom" Grid.Row="0" Grid.Column="1" Style="{StaticResource TextBx}" Grid.ColumnSpan="2" />
+
+                            <TextBlock Text="Direccion : " Grid.Row="0" Grid.Column="3" Style="{StaticResource label}"/>
+                            <TextBlock x:Name="TextBx_Dir" Grid.Row="0" Grid.Column="4" Style="{StaticResource TextBx}" Grid.ColumnSpan="2"/>
+
+                            <TextBlock Text="Primer Telefono : " Grid.Row="0" Grid.Column="6" Style="{StaticResource label}"/>
+                            <TextBlock x:Name="TextBx_tel1" Grid.Row="0" Grid.Column="7" Style="{StaticResource TextBx}" Grid.ColumnSpan="2"/>
+
+                            <TextBlock Text="Segundo Telefono : " Grid.Row="1" Grid.Column="0" Style="{StaticResource label}"/>
+                            <TextBlock x:Name="TextBx_tel2" Grid.Row="1" Grid.Column="1" Style="{StaticResource TextBx}" Grid.ColumnSpan="2"/>
+
+                            <TextBlock Text="Celular : " Grid.Row="1" Grid.Column="3" Style="{StaticResource label}"/>
+                            <TextBlock x:Name="TextBx_cel" Grid.Row="1" Grid.Column="4" Style="{StaticResource TextBx}" Grid.ColumnSpan="2"/>
+
+                            <TextBlock Text="Email : " Grid.Row="1" Grid.Column="6" Style="{StaticResource label}"/>
+                            <TextBlock x:Name="TextBx_email" Grid.Row="1" Grid.Column="7" Style="{StaticResource TextBx}" Grid.ColumnSpan="2" />
+
+                            <TextBox x:Name="TextBx_CodVen" Visibility="Hidden"/>
+                            <TextBlock x:Name="TextBx_codigo"  Visibility="Hidden"/>
+                            <TextBlock x:Name="TextBx_bodega"   Visibility="Hidden"/>
+
+                        </Grid>
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="1" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="5" >
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0.6*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="0.2*"/>
+                        </Grid.RowDefinitions>
+
+
+                        <Grid Grid.Row="0">
+                            <TextBlock Text="Permiso de Contacto" Background="Gray" Foreground="White" Height="Auto" VerticalAlignment="Top" Margin="10,0,0,0" Grid.ColumnSpan="2" Width="150" Grid.Column="0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                        </Grid>
+
+                        <Grid Grid.Row="1" Width="800">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="0.4*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="0.4*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="0.4*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="0.4*"/>
+                                <ColumnDefinition Width="0.5*"/>
+                                <ColumnDefinition Width="0.4*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Resources>
+                                <Style TargetType="TextBlock" x:Key="label">
+                                    <Setter Property="Width" Value="70"/>
+                                    <Setter Property="TextWrapping" Value="WrapWithOverflow"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                                    <Setter Property="FontSize" Value="12"/>
+                                    <Setter Property="Foreground" Value="Black"/>
+                                    <Setter Property="TextAlignment" Value="Right"/>
+                                </Style>
+                                <Style TargetType="TextBlock" x:Key="TextBx">
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                </Style>
+                            </Grid.Resources>
+
+                            <TextBlock Text="Email :  " Grid.Column="0" Style="{StaticResource label}" />
+                            <TextBlock  x:Name="TextBx_ct_email" Grid.Column="1" Style="{StaticResource TextBx}"/>
+
+                            <TextBlock Text="Mensajeria :  " Grid.Column="2" Style="{StaticResource label}"/>
+                            <TextBlock   x:Name="TextBx_ct_corres" Grid.Column="3" Style="{StaticResource TextBx}"/>
+
+                            <TextBlock Text="WhatsApp :  "  Grid.Column="4" Style="{StaticResource label}"/>
+                            <TextBlock   x:Name="TextBx_ct_whats" Grid.Column="5" Style="{StaticResource TextBx}" />
+
+                            <TextBlock Text="SMS :  " Grid.Column="6" Style="{StaticResource label}"/>
+                            <TextBlock   x:Name="TextBx_ct_sms" Grid.Column="7" Style="{StaticResource TextBx}" />
+
+                            <TextBlock Text="Celular :  "  Grid.Column="8" Style="{StaticResource label}"/>
+                            <TextBlock   x:Name="TextBx_ct_cel" Grid.Column="9" Style="{StaticResource TextBx}" />
+
+                        </Grid>
+
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="2" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="5">
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0.1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Name="Etiqueta" Grid.Row="0">
+                            <TextBlock Text="Registro de Seguimiento" Background="Gray" Foreground="White" Height="20" VerticalAlignment="Top" Margin="10,0,0,0" Grid.ColumnSpan="2" Width="200" Grid.Column="0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                        </Grid>
+
+                        <Grid Grid.Row="1" Margin="50 0 50 0">
+
+                            <Grid.Resources>
+                                <Style TargetType="TextBlock" x:Key="label">
+                                    <Setter Property="TextAlignment" Value="Center"/>
+                                    <Setter Property="Width" Value="80"/>
+                                    <Setter Property="TextWrapping" Value="WrapWithOverflow"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                                    <Setter Property="FontSize" Value="11"/>
+                                    <Setter Property="Foreground" Value="Black"/>
+                                </Style>
+                                <Style TargetType="TextBox" x:Key="TextBx">
+                                    <Setter Property="Foreground" Value="Black"/>
+                                    <Setter Property="VerticalAlignment" Value="Stretch"/>
+                                    <Setter Property="Margin" Value="2,6,10,6"/>
+                                    <Setter Property="FontSize" Value="12"/>
+                                    <Setter Property="Height" Value="Auto"/>
+                                    <Setter Property="CharacterCasing" Value="Upper"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                </Style>
+                                <Style TargetType="DatePicker" x:Key="Calendar">
+                                    <Setter Property="Foreground" Value="Orange"/>
+                                    <Setter Property="VerticalAlignment" Value="Stretch"/>
+                                    <Setter Property="Foreground" Value="Black"/>
+                                    <Setter Property="Margin" Value="2,6,10,6"/>
+                                    <Setter Property="FontSize" Value="11"/>
+                                    <Setter Property="Height" Value="Auto"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                </Style>
+
+                            </Grid.Resources>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0.5*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="0.5*"/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock Text="Actividad: " Grid.Row="1" Grid.Column="0" Style="{StaticResource label}"/>
+                            <TextBox x:Name="TextBx_con" Grid.Row="1" Grid.Column="1" Style="{StaticResource TextBx}" PreviewKeyDown="TextBox_PreviewKeyDown" Tag="CrMae_concepto"/>
+                            <TextBox x:Name="LB_con" Grid.Row="1" Grid.Column="1" Visibility="Hidden"/>
+
+
+                            <TextBlock Text="Campaña: " Grid.Row="2" Grid.Column="0" Style="{StaticResource label}"/>
+                            <ComboBox x:Name="TextBxCB_camp" Grid.Row="2" Grid.Column="1" Foreground="Black" VerticalAlignment="Stretch"  Margin="2,6,10,6" FontSize="11" Height="Auto" >
+                                <ComboBoxItem Tag="0" IsSelected="True">NINGUNA</ComboBoxItem>
+                            </ComboBox>
+
+
+                            <TextBlock Text="Hable con: " Grid.Row="3" Grid.Column="0" Style="{StaticResource label}"/>
+                            <ComboBox x:Name="TextBx_contac" Grid.Row="3" Grid.Column="1" Foreground="Black" VerticalAlignment="Stretch"  Margin="2,6,10,6" FontSize="11" Height="Auto">
+                                <ComboBoxItem IsSelected="True">El CLIENTE</ComboBoxItem>
+                                <ComboBoxItem >CON NADIE</ComboBoxItem>
+                                <ComboBoxItem >CON OTRA PERSONA</ComboBoxItem>
+                            </ComboBox>
+
+                            <TextBlock Text="Actividad Siguiente: " Grid.Row="4" Grid.Column="0" Style="{StaticResource label}"/>
+                            <TextBox x:Name="TextBx_ActSig" Grid.Row="4" Grid.Column="1" Style="{StaticResource TextBx}" PreviewKeyDown="TextBox_PreviewKeyDown" Tag="CrMae_concepto1"/>
+                            <TextBox x:Name="LB_ActSig" Grid.Row="4" Grid.Column="3" Visibility="Hidden"/>
+
+                            <TextBlock Text="Observaciones: " Grid.Row="1" Grid.Column="2" Style="{StaticResource label}"/>
+                            <TextBox x:Name="TextBx_obse" Grid.Row="1" Grid.Column="3" Grid.RowSpan="5" Grid.ColumnSpan="5" Height="150" Width="400" VerticalAlignment="Top" HorizontalAlignment="Left" TextWrapping="Wrap" AcceptsReturn="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Margin="0 10 0 0" Foreground="Black" CharacterCasing="Upper"/>
+
+                            <Button Grid.Column="7" Grid.Row="1" Margin="5" BorderBrush="{x:Null}" Background="#3498db" Click="regitrarSeguimiento" Name="BTNRegistrar" Cursor="Hand">Regitrar</Button>
+                            <Button Grid.Column="7" Grid.Row="2" Margin="5" BorderBrush="{x:Null}" Background="#3498db" Click="Cancelar_Click" Name="BTNCancelar" Cursor="Hand">Cancelar</Button>
+
+                        </Grid>
+
+                    </Grid>
+                </Border>
+
+            </Grid>
+        </SiaSf:TabItemExt>
+
+        <SiaSf:TabItemExt Name="tabItemExt2"  Header="Consulta Seguimiento" Width="250" HeaderMargin="50 0 0 0 " FontSize="14" >
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+
+                <Grid Background="black" Name="PanelCons">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="150"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10 0 0 0" Foreground="White" Text="Fecha Inicial : "/>
+                    <DatePicker x:Name="fecha_ini" Grid.Column="1" VerticalAlignment="Center" BorderBrush="{x:Null}" />
+                    <TextBlock Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10 0 0 0" Foreground="White" Text="Fecha Final : "/>
+                    <DatePicker x:Name="fecha_fin" Grid.Column="3" VerticalAlignment="Center" BorderBrush="{x:Null}"/>
+                    <Button Grid.Column="6" Margin="5" Background="#3498db" Foreground="black" BorderBrush="{x:Null}" Cursor="Hand" Click="cargarGrid">Consultar</Button>
+                    <Button Grid.Column="7" Margin="5" Background="#3498db" Foreground="black" BorderBrush="{x:Null}" Cursor="Hand" Click="ExportaXLS_Click">exportar excel</Button>
+                </Grid>
+
+                <Border Grid.Row="1" Background="white" Height="Auto"  BorderBrush="Silver" BorderThickness="1,1,1,1"  Margin="5,5,5.427,5" Grid.ColumnSpan="5">
+                    <Grid>
+                        <Grid.Resources>
+                            <Style TargetType="SiaSf:GridHeaderCellControl" x:Key="headerStyle">
+                                <Setter Property="Background" Value="#3498db"/>
+                                <Setter Property="Background" Value="#3498db"/>
+                                <Setter Property="Foreground" Value="WhiteSmoke"/>
+                                <Setter Property="FontSize" Value="11"/>
+                            </Style>
+                        </Grid.Resources>
+
+                        <SiaSf:SfBusyIndicator Name="sfBusyIndicator" Margin="5" VerticalAlignment="Center" FontSize="12" AnimationSpeed="100" AnimationType="Gear" Header="Cargando Datos - SiasoftApp" Height="200" IsBusy="False" />
+
+                        <SiaSf:SfDataGrid Grid.Row="1" x:Name="dataGridCxC"  AllowResizingColumns="True" EnableDataVirtualization="True" AutoGenerateColumns="False" ShowGroupDropArea="True"  AllowFiltering="True"  ItemsSource="{Binding DtTraslados}"  HeaderStyle="{StaticResource headerStyle}"  QueryRowHeight="dataGridCxC_QueryRowHeight" >
+                            <SiaSf:SfDataGrid.Columns>
+                                <SiaSf:GridTextColumn HeaderText="Fecha de registro" MappingName="fec_seg" Width="150"  TextWrapping="Wrap" />
+                                <SiaSf:GridTextColumn HeaderText="Codigo Cliente" MappingName="cod_ter" Width="150" TextWrapping="Wrap" />
+                                <SiaSf:GridTextColumn HeaderText="Nombre del Cliente" MappingName="nom_ter" Width="150"  TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Nomber del Vendedor" MappingName="nom_mer" Width="150" />
+                                <SiaSf:GridTextColumn HeaderText="Bodega Vendedor" MappingName="nom_bod" Width="150"  TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Actividad" MappingName="nom_con" Width="150"  TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Campaña" MappingName="nom_camp" Width="150"  TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Siguiente actividad" MappingName="nom_con1" Width="150"  TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Hablo Con" MappingName="contacto_cli" Width="150"  TextWrapping="Wrap"/>
+                                <SiaSf:GridTextColumn HeaderText="Observacion" MappingName="observ" Width="400"  TextWrapping="Wrap"/>
+                            </SiaSf:SfDataGrid.Columns>
+                        </SiaSf:SfDataGrid>
+
+                    </Grid>
+
+                </Border>
+
+                <Grid Grid.Row="2" Background="Black">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Total : " VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="10 0 0 0"/>
+                    <TextBlock Name="TotalReg" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="White" />
+                </Grid>
+            </Grid>
+        </SiaSf:TabItemExt>
+
+    </SiaSf:TabControlExt>
+
+
+
+</Window>
