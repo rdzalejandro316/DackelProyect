@@ -4,7 +4,7 @@
 library
 C#
 .cs
-D:\Empresas\leccollezioni\SiasoftLeco\Library\project\RegistroBono\obj\Debug\
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\RegistroBono\obj\Debug\
 RegistroBono
 none
 false
@@ -13,8 +13,8 @@ DEBUG;TRACE
 3-176459786
 
 6-1245661885
-18-1276233043
+18-1685923968
 Consultar.xaml;Registrar.xaml;RegistroBono.xaml;
 
-False
+True
 

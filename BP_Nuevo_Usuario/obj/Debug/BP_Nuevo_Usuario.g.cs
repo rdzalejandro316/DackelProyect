@@ -19,7 +19,6 @@ using Syncfusion.UI.Xaml.Grid.RowFilter;
 using Syncfusion.UI.Xaml.TreeGrid;
 using Syncfusion.Windows;
 using Syncfusion.Windows.Controls.Grid;
-using Syncfusion.Windows.Controls.Layout;
 using Syncfusion.Windows.Shared;
 using Syncfusion.Windows.Tools;
 using Syncfusion.Windows.Tools.Controls;

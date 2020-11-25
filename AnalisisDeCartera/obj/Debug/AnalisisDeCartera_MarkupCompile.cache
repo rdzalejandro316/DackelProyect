@@ -4,7 +4,7 @@
 library
 C#
 .cs
-D:\Empresas\leccollezioni\SiasoftLeco\Library\project\AnalisisDeCartera\obj\Debug\
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\AnalisisDeCartera\obj\Debug\
 AnalisisDeCartera
 none
 false
@@ -13,8 +13,8 @@ DEBUG;TRACE
 21249494128
 
 52110210532
-29800705714
+29699698732
 AnalisisDeCartera.xaml;AnalisisDeCarteraDetalle.xaml;
 
-False
+True
 

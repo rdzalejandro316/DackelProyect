@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\aleja\Desktop\Business\lecollezioni\SiasoftLeco_actualizacion\Library\project\facelectronicaleco\obj\Debug\
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\facelectronicaleco\obj\Debug\
 FacturaElectronicaGS
 none
 false
@@ -16,5 +16,5 @@ DEBUG;TRACE
 15-177486583
 FacturaElectronicaGS.xaml;
 
-False
+True
 
