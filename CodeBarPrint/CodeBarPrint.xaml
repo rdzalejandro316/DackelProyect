@@ -1,0 +1,81 @@
+﻿<Window x:Class="SiasoftAppExt.CodeBarPrint"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SiasoftAppExt"
+             xmlns:syncfusion="http://schemas.syncfusion.com/wpf"                 
+             Width="600" Height="400" Title="Code Bar Print">
+    
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="TxTitle">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="TxValue">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="5,0,0,0"/>
+        </Style>
+        <Style TargetType="Button" x:Key="BtnStyle">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="5,0,5,0"/>
+            <Setter Property="Background" Value="DodgerBlue"/>
+            <Setter Property="BorderBrush" Value="{x:Null}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Background="#373737">
+            <TextBlock Text="Referncia:" VerticalAlignment="Center" Margin="10,0,5,0" FontWeight="Bold" Foreground="White"/>
+            <TextBox Name="TxReferencia" Width="200" VerticalAlignment="Center" Padding="2" PreviewKeyDown="TextBox_PreviewKeyDown" LostFocus="TextBox_LostFocus" ToolTip="F8 BUSCAR"/>
+            <TextBlock Text="Cantidad:" VerticalAlignment="Center" Margin="10,0,5,0" FontWeight="Bold" Foreground="White"/>
+            <syncfusion:UpDown Name="SyncCopies"  Value="1" MinValue="0" MaxValue="100" Width="50" Height="25" NumberDecimalDigits="0" Margin="5 0 0 0"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Height="250">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Nombre" Style="{StaticResource TxTitle}"/>
+            <TextBlock Name="TxNombre" Grid.Column="1" Text="---" Style="{StaticResource TxValue}"/>
+
+            <TextBlock Grid.Row="1" Text="Linea" Style="{StaticResource TxTitle}"/>
+            <TextBlock Name="TxLinea"  Grid.Row="1" Grid.Column="1" Text="---" Style="{StaticResource TxValue}"/>
+            
+            <TextBlock Grid.Row="2" Text="Descripcion" Style="{StaticResource TxTitle}"/>
+            <TextBlock Name="TxDesc"  Grid.Row="2" Grid.Column="1" Text="---" Style="{StaticResource TxValue}"/>
+            
+            <TextBlock Grid.Row="3" Text="Talla" Style="{StaticResource TxTitle}"/>
+            <TextBlock Name="TxTalla"  Grid.Row="3" Grid.Column="1" Text="---" Style="{StaticResource TxValue}"/>
+            
+            <TextBlock Grid.Row="4" Text="Valor Unit" Style="{StaticResource TxTitle}"/>
+            <TextBlock Name="TxValor"  Grid.Row="4" Grid.Column="1" Text="---" Style="{StaticResource TxValue}"/>
+
+            <StackPanel Grid.Row="5" Grid.ColumnSpan="2" VerticalAlignment="Center"  HorizontalAlignment="Center" Orientation="Horizontal">
+                <Button Name="BtnPrint" Content="Imprimir" Style="{StaticResource BtnStyle}" Click="BtnPrint_Click"/>
+                <Button Name="BtnExit" Content="Salir" Style="{StaticResource BtnStyle}" Click="BtnExit_Click" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</Window>
