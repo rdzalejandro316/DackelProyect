@@ -12,3 +12,17 @@ C:\Users\aleja\Desktop\Business\lecollezioni\Dackel\Library\project\CodeBarPrint
 C:\Users\aleja\Desktop\Business\lecollezioni\Dackel\Library\CodeBarPrint.dll
 C:\Users\aleja\Desktop\Business\lecollezioni\Dackel\Library\CodeBarPrint.pdb
 C:\Users\aleja\Desktop\Business\lecollezioni\Dackel\Library\project\CodeBarPrint\obj\Debug\CodeBarPrint.csproj.CopyComplete
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint.csprojAssemblyReference.cache
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint.g.cs
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint_MarkupCompile.cache
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint_MarkupCompile.lref
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint.baml
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint.g.resources
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint.Properties.Resources.resources
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint.csproj.GenerateResource.cache
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint.csproj.CoreCompileInputs.cache
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint.csproj.CopyComplete
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint.dll
+D:\Empresas\leccollezioni\Dackel\Library\projectGS\CodeBarPrint\obj\Debug\CodeBarPrint.pdb
+D:\Empresas\leccollezioni\Dackel\Library\CodeBarPrint.dll
+D:\Empresas\leccollezioni\Dackel\Library\CodeBarPrint.pdb
