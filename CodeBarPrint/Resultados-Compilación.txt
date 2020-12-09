@@ -1,0 +1,4 @@
+﻿Operación Compilar iniciada..
+1>------ Operación Compilar iniciada: proyecto: CodeBarPrint, configuración: Debug Any CPU ------
+1>  CodeBarPrint -> D:\Empresas\leccollezioni\Dackel\Library\CodeBarPrint.dll
+========== Compilar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========

@@ -357,14 +357,14 @@ namespace SiasoftAppExt
             #region fuente
 
             SolidBrush sb = new SolidBrush(System.Drawing.Color.Black);
-            Font FontEmpresa = new Font("Arial", 11, System.Drawing.FontStyle.Bold);
+            Font FontEmpresa = new Font("Arial", 14, System.Drawing.FontStyle.Bold);
             Font FontLinea = new Font("Arial", 8, System.Drawing.FontStyle.Bold);
             Font FontNombre = new Font("Arial", 6, System.Drawing.FontStyle.Regular);
-            Font FontValor = new Font("Arial", 5, System.Drawing.FontStyle.Regular);
+            Font FontValor = new Font("Arial", 10, System.Drawing.FontStyle.Bold);
             Font FontCode = new Font("Arial", 7, System.Drawing.FontStyle.Regular);
             Font CbarArialFecha = new Font("Arial", 5, System.Drawing.FontStyle.Regular);
-            Font CbarArialSerial = new Font("Arial", 6, System.Drawing.FontStyle.Regular);
-            Font FontTalla = new Font("Arial", 4, System.Drawing.FontStyle.Regular);
+            Font CbarArialSerial = new Font("Arial", 7, System.Drawing.FontStyle.Bold);
+            Font FontTalla = new Font("Arial", 10, System.Drawing.FontStyle.Regular);
             Font CbarFree = new Font("Free 3 of 9", 20, System.Drawing.FontStyle.Regular);
             #endregion
 
@@ -381,37 +381,35 @@ namespace SiasoftAppExt
                     fec_compra = DateTime.Now;
             }
 
-            decimal valor = masivo == true ? Convert.ToDecimal(drow["val_ref"])  : Convert.ToDecimal(TxValor.Text.Trim());
+            decimal valor = masivo == true ? Convert.ToDecimal(drow["val_ref"]) : Convert.ToDecimal(TxValor.Text.Trim());
             decimal usd = masivo == true ? Convert.ToDecimal(drow["precio_usd"]) : Convert.ToDecimal(TxUSD.Text.Trim());
             string talla = masivo == true ? drow["desc_tall"].ToString().Trim() : TxTalla.Text.Trim();
             string serial = masivo == true ? drow["serial"].ToString().Trim() : TxSerial.Text.Trim();
 
 
-            g.DrawString("LE COLEZIONI", FontEmpresa, sb, 20, 10);
-            g.DrawString(fec_compra.ToString("MMyy"), CbarArialFecha, sb, 150, 15);
+            g.DrawString("LE COLEZIONI", FontEmpresa, sb, 35, 0);
+            g.DrawString(fec_compra.ToString("MMyy"), CbarArialFecha, sb, 200, 5);
 
-            g.DrawString(linea, FontLinea, sb, 10, 30);
-            g.DrawString("PRECIO:" + valor.ToString("N0"), FontValor, sb, 160, 32);
+            g.DrawString(linea, FontLinea, sb, 10, 24);
+            g.DrawString("PRECIO:" + valor.ToString("N0"), FontValor, sb, 150, 24);
 
-            g.DrawString(nombre, FontNombre, sb, new RectangleF(10, 45, 150, 30));
+            g.DrawString(nombre, FontNombre, sb, new RectangleF(10, 40, 150, 26));
 
-            g.DrawString("US:" + usd.ToString("N0"), FontValor, sb, 160, 50);
+            g.DrawString("US:" + usd.ToString("N0"), FontValor, sb, 160, 40);
 
-            g.DrawString("*" + code + "*", CbarFree, sb, 5, 70);
-            g.DrawString(code, FontCode, sb, 10, 90);
-            g.DrawString("TALLA:" + talla, FontTalla, sb, 200, 75);
+            g.DrawString("*" + code + "*", CbarFree, sb, 5, 64);
+            g.DrawString(code, FontCode, sb, 10, 87);
+            g.DrawString("TALLA:" + talla, FontTalla, sb, 200, 70);
 
-            g.DrawString("SERIAL:" + serial, CbarArialSerial, sb, 120, 91);
+            g.DrawString("SERIAL:" + serial, CbarArialSerial, sb, 85, 97);
 
 
         }
-
 
         private void BtnExit_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
-
 
 
 
