@@ -4,7 +4,7 @@
 library
 C#
 .cs
-D:\Empresas\leccollezioni\Dackel\Library\projectGS\InformeEfectividad\obj\Debug\
+C:\Users\aleja\Desktop\Business\lecollezioni\Dackel\Library\project\InformeEfectividad\obj\Debug\
 InformeEfectividad
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 11-1004568487
 
 14-1021974621
-24-180174295
+241520911001
 Detalle_Campaña.xaml;Detalle_CRM.xaml;Detalle_Cumpleaños.xaml;Detalle_Email.xaml;Detalle_llamada.xaml;Detalle_SMS.xaml;Detalle_WhatsApp.xaml;facturado.xaml;InformeEfectividad.xaml;Visita_Camp.xaml;Visita_Cumple.xaml;
 
 True
